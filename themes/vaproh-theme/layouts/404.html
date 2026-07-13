@@ -1,0 +1,19 @@
+{{ define "main" }}
+<div class="void-page">
+  <div class="void-glitch" data-text="404">404</div>
+  <p>you've wandered off the map.</p>
+  <a href="/" class="void-btn">return home</a>
+</div>
+
+<style>
+  .void-page { min-height: 60vh; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; }
+  .void-glitch { font-family: var(--mono); font-size: 140px; font-weight: 800; line-height: 1; letter-spacing: -0.05em; color: var(--text); position: relative; margin-bottom: 24px; text-shadow: 4px 4px 0 var(--highlight); }
+  .void-page p { font-size: 20px; color: var(--text-2); margin-bottom: 32px; }
+  .void-btn { display: inline-block; font-family: var(--mono); font-size: 15px; color: var(--text); padding: 12px 24px; border: 2px solid var(--text); text-decoration: none; transition: all 200ms; background: var(--bg); font-weight: 500; }
+  .void-btn:hover { background: var(--text); color: var(--bg); transform: translate(-4px, -4px); box-shadow: 4px 4px 0 var(--highlight); }
+  
+  @media (max-width: 640px) {
+    .void-glitch { font-size: 100px; }
+  }
+</style>
+{{ end }}

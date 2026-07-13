@@ -1,0 +1,33 @@
+{{ define "main" }}
+<div class="page-header">
+  <h1 class="page-title">{{ .Title }}</h1>
+  {{ if .Description }}
+  <p class="page-desc">{{ .Description }}</p>
+  {{ end }}
+</div>
+
+<div class="tag-filter-bar">
+  <button class="tag-filter-btn active" data-tag="all">all</button>
+  <button class="tag-filter-btn" data-tag="thoughts">thoughts</button>
+  <button class="tag-filter-btn" data-tag="devlog">devlog</button>
+  <button class="tag-filter-btn" data-tag="photos">photos</button>
+  <button class="tag-filter-btn" data-tag="life">life</button>
+  <button class="tag-filter-btn" data-tag="tools">tools</button>
+  <button class="tag-filter-btn" data-tag="writing">writing</button>
+</div>
+
+{{ range (.Pages.GroupByDate "2006") }}
+<div class="archive-year">{{ .Key }}</div>
+<div class="archive-list">
+  {{ range .Pages }}
+  <div class="archive-item">
+    <span class="archive-date">{{ .Date.Format "02 Jan" | lower }}</span>
+    <a href="{{ .Permalink }}" class="archive-title">{{ .Title | lower }}</a>
+    {{ if .Params.tags }}
+    <span class="archive-tag">{{ index .Params.tags 0 | lower }}</span>
+    {{ end }}
+  </div>
+  {{ end }}
+</div>
+{{ end }}
+{{ end }}

@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="auto">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>writing — vaproh</title>
+  <meta name="description" content="Utkarsh's writing — thoughts, essays, and random things that refused to leave his head." />
+  <script src="https://cdn.tailwindcss.com?plugins=typography"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;1,400&family=JetBrains+Mono:wght@400;500&family=Inter:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header class="site-header" role="banner">
+    <div class="header-inner">
+      <a href="index.html" class="site-name">vaproh</a>
+      <nav class="top-nav" aria-label="main navigation">
+        <a href="index.html" class="top-nav-link">home</a>
+        <a href="writing.html" class="top-nav-link active" aria-current="page">writing</a>
+        <a href="devlogs.html" class="top-nav-link">devlogs</a>
+        <a href="photos.html" class="top-nav-link">photos</a>
+        <a href="tools.html" class="top-nav-link">tools</a>
+        <a href="about.html" class="top-nav-link">about</a>
+      </nav>
+        <button class="theme-toggle" id="theme-toggle" aria-label="toggle theme"><svg class="icon-sun" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg><svg class="icon-moon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg></button>
+      <button class="nav-toggle" id="nav-toggle" aria-label="open navigation" aria-expanded="false" aria-controls="mobile-nav">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <div class="mobile-nav" id="mobile-nav" aria-hidden="true">
+    <nav>
+      <a href="index.html" class="mobile-nav-link">home</a>
+      <a href="writing.html" class="mobile-nav-link active">writing</a>
+      <a href="devlogs.html" class="mobile-nav-link">devlogs</a>
+      <a href="photos.html" class="mobile-nav-link">photos</a>
+      <a href="tools.html" class="mobile-nav-link">tools</a>
+      <a href="about.html" class="mobile-nav-link">about</a>
+    </nav>
+    <div class="mobile-nav-footer">
+      <a href="https://github.com/vaproh" class="ext-link" rel="noopener" target="_blank">github</a>
+      <span class="ext-sep">·</span>
+      <a href="feed.xml" class="ext-link">rss</a>
+      <span class="ext-sep">·</span>
+      <a href="mailto:utkarsh@vaproh.space" class="ext-link">email</a>
+      <button class="theme-toggle" id="theme-toggle-mobile" aria-label="toggle theme" style="margin-left:auto"><span class="theme-icon"></span></button>
+    </div>
+  </div>
+  <div class="nav-overlay" id="nav-overlay" aria-hidden="true"></div>
+
+  <main class="page-wrap" role="main">
+
+    <div class="page-header">
+      <h1 class="page-title">writing</h1>
+      <p class="page-desc">thoughts, essays, and things that refused to leave my head.</p>
+    </div>
+
+    <div class="archive-year">2026</div>
+    <div class="archive-list">
+      <div class="archive-item">
+        <span class="archive-date">13 jul</span>
+        <a href="post-messy-websites.html" class="archive-title">maybe personal websites should be messy</a>
+        <span class="archive-tag">thoughts</span>
+      </div>
+      <div class="archive-item">
+        <span class="archive-date">30 jun</span>
+        <a href="post-figuring-out.html" class="archive-title">figuring shit out at eighteen</a>
+        <span class="archive-tag">life</span>
+      </div>
+      <div class="archive-item">
+        <span class="archive-date">10 jun</span>
+        <a href="post-on-boredom.html" class="archive-title">in defense of being bored</a>
+        <span class="archive-tag">writing</span>
+      </div>
+      <div class="archive-item">
+        <span class="archive-date">28 may</span>
+        <a href="post-elden-ring.html" class="archive-title">elden ring still lives rent-free in my head</a>
+        <span class="archive-tag">thoughts</span>
+      </div>
+      <div class="archive-item">
+        <span class="archive-date">02 apr</span>
+        <a href="#" class="archive-title">on the strange grief of finishing a good book</a>
+        <span class="archive-tag">thoughts</span>
+      </div>
+      <div class="archive-item">
+        <span class="archive-date">14 feb</span>
+        <a href="#" class="archive-title">why i still use linux even though it breaks everything</a>
+        <span class="archive-tag">life</span>
+      </div>
+    </div>
+
+    <div class="archive-year">2025</div>
+    <div class="archive-list">
+      <div class="archive-item">
+        <span class="archive-date">21 dec</span>
+        <a href="#" class="archive-title">a year in things</a>
+        <span class="archive-tag">life</span>
+      </div>
+      <div class="archive-item">
+        <span class="archive-date">08 oct</span>
+        <a href="#" class="archive-title">the attention economy is eating my brain and i'm mad about it</a>
+        <span class="archive-tag">thoughts</span>
+      </div>
+      <div class="archive-item">
+        <span class="archive-date">17 jun</span>
+        <a href="#" class="archive-title">notes on learning rust (it's not that bad)</a>
+        <span class="archive-tag">tech</span>
+      </div>
+      <div class="archive-item">
+        <span class="archive-date">03 mar</span>
+        <a href="#" class="archive-title">what nobody tells you about open source</a>
+        <span class="archive-tag">tech</span>
+      </div>
+    </div>
+
+  </main>
+
+  <footer class="site-footer" role="contentinfo">
+    <div class="footer-inner">
+      <span class="footer-name">vaproh</span>
+      <div class="footer-links">
+        <a href="https://github.com/vaproh" rel="noopener" target="_blank">github</a>
+        <span>·</span>
+        <a href="feed.xml">rss</a>
+        <span>·</span>
+        <a href="mailto:utkarsh@vaproh.space">email</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>

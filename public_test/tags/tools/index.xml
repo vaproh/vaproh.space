@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Tools on vaproh</title>
+		<link>https://vaproh.space/tags/tools/</link>
+		<description>Recent content in Tools on vaproh</description>
+		<generator>Hugo</generator>
+		<language>en-us</language>
+		
+		
+		
+		
+			<lastBuildDate>Mon, 22 Jun 2026 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="https://vaproh.space/tags/tools/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>tiny things i&#39;ve built lately</title>
+				<link>https://vaproh.space/tiny-things-ive-built-lately/</link>
+				<pubDate>Mon, 22 Jun 2026 00:00:00 +0000</pubDate>
+				<guid>https://vaproh.space/tiny-things-ive-built-lately/</guid>
+				<description>&lt;p&gt;not everything needs to be a startup. sometimes you just build a small thing that scratches your own itch, put it somewhere on the internet, and that&amp;rsquo;s enough.&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>

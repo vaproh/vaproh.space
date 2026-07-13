@@ -1,0 +1,37 @@
+<footer class="site-footer" role="contentinfo">
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <span class="footer-name">{{ .Site.Title }}</span>
+      <span class="ext-sep">·</span>
+      <span>© {{ now.Format "2006" }}</span>
+      <span class="ext-sep">·</span>
+      <span id="footer-time" class="footer-time"></span>
+    </div>
+    <div class="footer-links">
+      <a href="https://github.com/vaproh" rel="noopener noreferrer" target="_blank">github</a>
+      <a href="{{ "/feed.xml" | relURL }}">rss</a>
+      <a href="mailto:utkarsh@vaproh.space">email</a>
+    </div>
+  </div>
+</footer>
+
+<dialog id="cmd-menu" class="cmd-menu">
+  <div class="cmd-menu-inner">
+    <div class="cmd-header">
+      <input type="text" id="cmd-input" placeholder="Type a command or search..." autocomplete="off" spellcheck="false" />
+    </div>
+    <div class="cmd-body">
+      <ul id="cmd-list" class="cmd-list">
+        <li><a href="/">home</a></li>
+        <li><a href="/archive/">archive</a></li>
+        <li><a href="/photos/">photos</a></li>
+        <li><a href="/projects/">projects</a></li>
+        <li><a href="/uses/">uses</a></li>
+        <li><a href="/socials/">socials</a></li>
+        <li><button id="cmd-theme-toggle">toggle theme</button></li>
+      </ul>
+    </div>
+  </div>
+</dialog>
+
+<script src="{{ "main.js" | relURL }}"></script>

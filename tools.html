@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="auto">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>tools — vaproh</title>
+  <meta name="description" content="Small software tools built by Utkarsh. Nothing fancy, just useful." />
+  <script src="https://cdn.tailwindcss.com?plugins=typography"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;1,400&family=JetBrains+Mono:wght@400;500&family=Inter:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header class="site-header" role="banner">
+    <div class="header-inner">
+      <a href="index.html" class="site-name">vaproh</a>
+      <nav class="top-nav" aria-label="main navigation">
+        <a href="index.html" class="top-nav-link">home</a>
+        <a href="writing.html" class="top-nav-link">writing</a>
+        <a href="devlogs.html" class="top-nav-link">devlogs</a>
+        <a href="photos.html" class="top-nav-link">photos</a>
+        <a href="tools.html" class="top-nav-link active" aria-current="page">tools</a>
+        <a href="about.html" class="top-nav-link">about</a>
+      </nav>
+        <button class="theme-toggle" id="theme-toggle" aria-label="toggle theme"><svg class="icon-sun" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg><svg class="icon-moon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg></button>
+      <button class="nav-toggle" id="nav-toggle" aria-label="open navigation" aria-expanded="false" aria-controls="mobile-nav">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <div class="mobile-nav" id="mobile-nav" aria-hidden="true">
+    <nav>
+      <a href="index.html" class="mobile-nav-link">home</a>
+      <a href="writing.html" class="mobile-nav-link">writing</a>
+      <a href="devlogs.html" class="mobile-nav-link">devlogs</a>
+      <a href="photos.html" class="mobile-nav-link">photos</a>
+      <a href="tools.html" class="mobile-nav-link active">tools</a>
+      <a href="about.html" class="mobile-nav-link">about</a>
+    </nav>
+    <div class="mobile-nav-footer">
+      <a href="https://github.com/vaproh" class="ext-link" rel="noopener" target="_blank">github</a>
+      <span class="ext-sep">·</span>
+      <a href="feed.xml" class="ext-link">rss</a>
+      <span class="ext-sep">·</span>
+      <a href="mailto:utkarsh@vaproh.space" class="ext-link">email</a>
+      <button class="theme-toggle" id="theme-toggle-mobile" aria-label="toggle theme" style="margin-left:auto"><span class="theme-icon"></span></button>
+    </div>
+  </div>
+  <div class="nav-overlay" id="nav-overlay" aria-hidden="true"></div>
+
+  <main class="page-wrap" role="main">
+
+    <div class="page-header">
+      <h1 class="page-title">tools</h1>
+      <p class="page-desc">small things i've built. nothing fancy, just things that scratch a specific itch.</p>
+    </div>
+
+    <div class="tool-card">
+      <div class="tool-card-name"><a href="https://github.com/vaproh/gitpulse" rel="noopener" target="_blank">gitpulse</a></div>
+      <p class="tool-card-desc">a tiny cli that tells you what you actually worked on this week, without git log archaeology. outputs a plain text summary of your commits, grouped by repo.</p>
+      <div class="tool-card-tags"><span class="tool-tag">rust</span><span class="tool-tag">·</span><span class="tool-tag">cli</span><span class="tool-tag">·</span><span class="tool-tag">productivity</span></div>
+    </div>
+
+    <div class="tool-card">
+      <div class="tool-card-name"><a href="https://github.com/vaproh/noisewall" rel="noopener" target="_blank">noisewall</a></div>
+      <p class="tool-card-desc">ambient sound mixer for people who can't work in silence or in noise. runs in the browser, no backend, no account. mix rain, white noise, cafe sounds, and lo-fi with independent volume sliders.</p>
+      <div class="tool-card-tags"><span class="tool-tag">html</span><span class="tool-tag">·</span><span class="tool-tag">js</span><span class="tool-tag">·</span><span class="tool-tag">audio</span></div>
+    </div>
+
+    <div class="tool-card">
+      <div class="tool-card-name"><a href="https://github.com/vaproh/sitewatch" rel="noopener" target="_blank">sitewatch</a></div>
+      <p class="tool-card-desc">monitors websites and sends a discord ping when something changes. checks a list of urls on a cron schedule and diffs the content. dead simple, runs on a $5 vps without breaking a sweat.</p>
+      <div class="tool-card-tags"><span class="tool-tag">python</span><span class="tool-tag">·</span><span class="tool-tag">cli</span><span class="tool-tag">·</span><span class="tool-tag">monitoring</span></div>
+    </div>
+
+    <div class="tool-card">
+      <div class="tool-card-name"><a href="https://github.com/vaproh/tty-music" rel="noopener" target="_blank">tty-music</a></div>
+      <p class="tool-card-desc">terminal music player built with rodio and ratatui. plays local files, remembers your queue, shows a tiny waveform visualizer. built it because spotify was too much and mpd was too complicated.</p>
+      <div class="tool-card-tags"><span class="tool-tag">rust</span><span class="tool-tag">·</span><span class="tool-tag">tui</span><span class="tool-tag">·</span><span class="tool-tag">audio</span></div>
+    </div>
+
+    <div class="tool-card">
+      <div class="tool-card-name"><a href="https://github.com/vaproh/readtime" rel="noopener" target="_blank">readtime</a></div>
+      <p class="tool-card-desc">estimates reading time for markdown and plain text files. pipe into it or give it a path. outputs something like "~4 min read (892 words)". i use it before publishing things here.</p>
+      <div class="tool-card-tags"><span class="tool-tag">go</span><span class="tool-tag">·</span><span class="tool-tag">cli</span><span class="tool-tag">·</span><span class="tool-tag">text</span></div>
+    </div>
+
+  </main>
+
+  <footer class="site-footer" role="contentinfo">
+    <div class="footer-inner">
+      <span class="footer-name">vaproh</span>
+      <div class="footer-links">
+        <a href="https://github.com/vaproh" rel="noopener" target="_blank">github</a>
+        <span>·</span>
+        <a href="feed.xml">rss</a>
+        <span>·</span>
+        <a href="mailto:utkarsh@vaproh.space">email</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Tags on vaproh</title>
+		<link>https://vaproh.space/tags/</link>
+		<description>Recent content in Tags on vaproh</description>
+		<generator>Hugo</generator>
+		<language>en-us</language>
+		
+		
+		
+		
+			<lastBuildDate>Mon, 13 Jul 2026 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="https://vaproh.space/tags/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Thoughts</title>
+				<link>https://vaproh.space/tags/thoughts/</link>
+				<pubDate>Mon, 13 Jul 2026 00:00:00 +0000</pubDate>
+				<guid>https://vaproh.space/tags/thoughts/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Devlog</title>
+				<link>https://vaproh.space/tags/devlog/</link>
+				<pubDate>Fri, 10 Jul 2026 00:00:00 +0000</pubDate>
+				<guid>https://vaproh.space/tags/devlog/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Photos</title>
+				<link>https://vaproh.space/tags/photos/</link>
+				<pubDate>Mon, 06 Jul 2026 00:00:00 +0000</pubDate>
+				<guid>https://vaproh.space/tags/photos/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Life</title>
+				<link>https://vaproh.space/tags/life/</link>
+				<pubDate>Tue, 30 Jun 2026 00:00:00 +0000</pubDate>
+				<guid>https://vaproh.space/tags/life/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Tools</title>
+				<link>https://vaproh.space/tags/tools/</link>
+				<pubDate>Mon, 22 Jun 2026 00:00:00 +0000</pubDate>
+				<guid>https://vaproh.space/tags/tools/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Writing</title>
+				<link>https://vaproh.space/tags/writing/</link>
+				<pubDate>Wed, 10 Jun 2026 00:00:00 +0000</pubDate>
+				<guid>https://vaproh.space/tags/writing/</guid>
+				<description></description>
+			</item>
+	</channel>
+</rss>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><?xml-stylesheet type="text/xsl" href="/rss.xsl"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>vaproh</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on vaproh</description>
+    <generator>Hugo</generator>
+    <language>en-us</language><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>about</title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/about/</guid>
+      <description>&lt;p&gt;i&amp;rsquo;m utkarsh. i write code, design things, and occasionally take pictures.&lt;/p&gt;
+&lt;p&gt;right now i&amp;rsquo;m interested in local ai, procedural generation, and bringing back the weird, intimate web of the 2000s.&lt;/p&gt;
+&lt;p&gt;you can find me on &lt;a href=&#34;https://github.com/vaproh&#34;&gt;github&lt;/a&gt; or email me at &lt;a href=&#34;mailto:utkarsh@vaproh.space&#34;&gt;utkarsh@vaproh.space&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>archive</title>
+      <link>http://localhost:1313/archive/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/archive/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>photos</title>
+      <link>http://localhost:1313/photos/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/photos/</guid>
+      <description>&lt;p&gt;&lt;em&gt;more coming soon.&lt;/em&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>projects</title>
+      <link>http://localhost:1313/projects/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/</guid>
+      <description>&lt;p&gt;not everything needs to be a massive startup. sometimes you just build a small thing that scratches your own itch, put it somewhere on the internet, and that&amp;rsquo;s enough.&lt;/p&gt;
+&lt;div class=&#34;tools-list&#34;&gt;
+  &lt;div class=&#34;tool-item&#34;&gt;
+    &lt;span class=&#34;tool-name&#34;&gt;&lt;a href=&#34;#&#34;&gt;gitpulse&lt;/a&gt;&lt;/span&gt;
+    &lt;span class=&#34;tool-desc&#34;&gt;— a tiny cli that tells you what you actually worked on this week, without git log archaeology&lt;/span&gt;
+  &lt;/div&gt;
+  &lt;div class=&#34;tool-item&#34;&gt;
+    &lt;span class=&#34;tool-name&#34;&gt;&lt;a href=&#34;#&#34;&gt;noisewall&lt;/a&gt;&lt;/span&gt;
+    &lt;span class=&#34;tool-desc&#34;&gt;— ambient sound mixer for people who can&#39;t work in silence or in noise&lt;/span&gt;
+  &lt;/div&gt;
+  &lt;div class=&#34;tool-item&#34;&gt;
+    &lt;span class=&#34;tool-name&#34;&gt;&lt;a href=&#34;#&#34;&gt;sitewatch&lt;/a&gt;&lt;/span&gt;
+    &lt;span class=&#34;tool-desc&#34;&gt;— monitors sites and sends a discord ping when something changes. dead simple.&lt;/span&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>socials</title>
+      <link>http://localhost:1313/socials/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/socials/</guid>
+      <description>&lt;p&gt;i&amp;rsquo;m fairly quiet online, but here&amp;rsquo;s where you can reach me or see what i&amp;rsquo;m up to.&lt;/p&gt;
+&lt;h3 id=&#34;links&#34;&gt;Links&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Email:&lt;/strong&gt; &lt;a href=&#34;mailto:utkarsh@vaproh.space&#34;&gt;utkarsh@vaproh.space&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;GitHub:&lt;/strong&gt; &lt;a href=&#34;https://github.com/vaproh&#34;&gt;@vaproh&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Twitter/X:&lt;/strong&gt; &lt;a href=&#34;https://twitter.com/vaproh&#34;&gt;@vaproh&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;RSS:&lt;/strong&gt; &lt;a href=&#34;http://localhost:1313/feed.xml&#34;&gt;feed.xml&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;if you&amp;rsquo;re reaching out about a project, please include &amp;ldquo;orbit&amp;rdquo; somewhere in the subject line so i know you actually read this.&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>uses</title>
+      <link>http://localhost:1313/uses/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/uses/</guid>
+      <description>&lt;p&gt;i get asked about my setup somewhat often. here is the master list of everything i actually use to get work done.&lt;/p&gt;
+&lt;h3 id=&#34;hardware&#34;&gt;Hardware&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Machine:&lt;/strong&gt; M3 MacBook Pro 14&amp;quot; (Silver) — it&amp;rsquo;s fast, the battery lasts forever, and i don&amp;rsquo;t have to think about it.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Monitor:&lt;/strong&gt; Studio Display — controversial, but the text clarity is unmatched.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Keyboard:&lt;/strong&gt; HHKB Professional Hybrid Type-S — the layout took a week to learn and now i can&amp;rsquo;t use anything else.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Mouse:&lt;/strong&gt; Logitech MX Master 3S — heavy, but ergonomic.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;development&#34;&gt;Development&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Editor:&lt;/strong&gt; VS Code with the Vitesse Dark theme.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Terminal:&lt;/strong&gt; Ghostty — insanely fast, looks beautiful out of the box.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Shell:&lt;/strong&gt; Zsh with Oh My Zsh and Starship prompt.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Font:&lt;/strong&gt; JetBrains Mono for code, Inter for UI.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;apps&#34;&gt;Apps&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Browser:&lt;/strong&gt; Arc — the spaces feature actually changed how i work.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Notes:&lt;/strong&gt; Obsidian — all my writing, devlogs, and plans live here in plaintext.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Music:&lt;/strong&gt; Spotify + a massive collection of local FLAC files played through Swinsian.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

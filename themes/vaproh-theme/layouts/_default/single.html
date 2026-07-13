@@ -1,0 +1,40 @@
+{{ define "main" }}
+<article>
+  <header class="post-header">
+    <h1 class="post-title">{{ .Title }}</h1>
+    {{ if .Params.subtitle }}
+    <p class="post-subtitle">{{ .Params.subtitle }}</p>
+    {{ end }}
+    <hr class="post-header-divider" />
+    
+    <div class="post-meta-magazine">
+      <div class="meta-left">
+        <div class="meta-block">
+          <span class="meta-label">Published</span>
+          <time class="meta-value" datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "Jan 02, 2006" }}</time>
+        </div>
+        <div class="meta-block">
+          <span class="meta-label">Reading Time</span>
+          <span class="meta-value">{{ .ReadingTime }} min read</span>
+        </div>
+      </div>
+      <div class="meta-right">
+        {{ if .Params.tags }}
+        <div class="meta-block">
+          <span class="meta-label">Filed Under</span>
+          <span class="meta-value meta-tags">
+            {{ range .Params.tags }}
+            <a href="{{ "/tags/" | relURL }}{{ . | urlize }}">#{{ . }}</a>
+            {{ end }}
+          </span>
+        </div>
+        {{ end }}
+      </div>
+    </div>
+  </header>
+
+  <div class="post-content">
+    {{ .Content }}
+  </div>
+</article>
+{{ end }}

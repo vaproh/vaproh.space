@@ -1,0 +1,52 @@
+{{ define "main" }}
+<section class="intro" aria-label="introduction">
+  {{ .Content }}
+</section>
+
+<section class="feed archive-list" aria-label="recent posts" style="margin-top: 32px;">
+  <div class="dump-title" style="margin-bottom: 24px;">latest writing</div>
+  {{ range first 7 (where .Site.RegularPages "Section" "archive") }}
+  <div class="archive-item">
+    <span class="archive-date">{{ .Date.Format "02 Jan" | lower }}</span>
+    <a href="{{ .Permalink }}" class="archive-title">{{ .Title | lower }}</a>
+    {{ if .Params.tags }}
+    <span class="archive-tag">{{ index .Params.tags 0 | lower }}</span>
+    {{ end }}
+  </div>
+  {{ end }}
+</section>
+
+<div class="feed-footer">
+  <a href="{{ "/archive/" | relURL }}" class="all-posts-link">all posts →</a>
+</div>
+
+<hr class="section-divider" style="margin-top: 40px;" />
+
+<div class="dump-title" style="margin-bottom: 20px;">directory</div>
+<div class="home-bento">
+  <a href="/about" class="bento-card">
+    <span class="bento-title">about me →</span>
+    <span class="bento-desc">the longer story</span>
+  </a>
+  <a href="/projects" class="bento-card">
+    <span class="bento-title">projects →</span>
+    <span class="bento-desc">selected work</span>
+  </a>
+  <a href="/photos" class="bento-card">
+    <span class="bento-title">photos →</span>
+    <span class="bento-desc">things i saw</span>
+  </a>
+  <a href="/uses" class="bento-card">
+    <span class="bento-title">stuff i click →</span>
+    <span class="bento-desc">gear and software</span>
+  </a>
+  <a href="/archive" class="bento-card">
+    <span class="bento-title">archive →</span>
+    <span class="bento-desc">all my writing</span>
+  </a>
+  <a href="/socials" class="bento-card">
+    <span class="bento-title">socials →</span>
+    <span class="bento-desc">links & contact</span>
+  </a>
+</div>
+{{ end }}

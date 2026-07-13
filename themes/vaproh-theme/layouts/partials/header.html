@@ -1,0 +1,40 @@
+<div class="scroll-progress" id="scroll-progress"></div>
+<header class="site-header" role="banner">
+  <div class="header-inner">
+    <a href="{{ "/" | relURL }}" class="site-name">{{ .Site.Title }}</a>
+    <nav class="top-nav" aria-label="main navigation">
+      <a href="{{ "/" | relURL }}" class="top-nav-link{{ if .IsHome }} active{{ end }}">home</a>
+      <a href="{{ "/archive/" | relURL }}" class="top-nav-link{{ if eq .Type "archive" }} active{{ end }}">archive</a>
+      <a href="{{ "/projects/" | relURL }}" class="top-nav-link{{ if eq .Title "projects" }} active{{ end }}">projects</a>
+      <a href="{{ "/photos/" | relURL }}" class="top-nav-link{{ if eq .Title "photos" }} active{{ end }}">photos</a>
+      <a href="{{ "/uses/" | relURL }}" class="top-nav-link{{ if eq .Title "uses" }} active{{ end }}">uses</a>
+      <a href="{{ "/about/" | relURL }}" class="top-nav-link{{ if eq .Title "about" }} active{{ end }}">about</a>
+      <a href="{{ "/socials/" | relURL }}" class="top-nav-link{{ if eq .Title "socials" }} active{{ end }}">socials</a>
+    </nav>
+    <button class="theme-toggle" id="theme-toggle" aria-label="toggle theme"><svg class="icon-sun" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg><svg class="icon-moon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg></button>
+    <button class="nav-toggle" id="nav-toggle" aria-label="open navigation" aria-expanded="false" aria-controls="mobile-nav">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<div class="mobile-nav" id="mobile-nav" aria-hidden="true">
+  <nav>
+    <a href="{{ "/" | relURL }}" class="mobile-nav-link{{ if .IsHome }} active{{ end }}">home</a>
+    <a href="{{ "/archive/" | relURL }}" class="mobile-nav-link{{ if eq .Type "archive" }} active{{ end }}">archive</a>
+    <a href="{{ "/projects/" | relURL }}" class="mobile-nav-link{{ if eq .Title "projects" }} active{{ end }}">projects</a>
+    <a href="{{ "/photos/" | relURL }}" class="mobile-nav-link{{ if eq .Title "photos" }} active{{ end }}">photos</a>
+    <a href="{{ "/uses/" | relURL }}" class="mobile-nav-link{{ if eq .Title "uses" }} active{{ end }}">uses</a>
+    <a href="{{ "/about/" | relURL }}" class="mobile-nav-link{{ if eq .Title "about" }} active{{ end }}">about</a>
+    <a href="{{ "/socials/" | relURL }}" class="mobile-nav-link{{ if eq .Title "socials" }} active{{ end }}">socials</a>
+  </nav>
+  <div class="mobile-nav-footer">
+    <a href="https://github.com/vaproh" class="ext-link" rel="noopener" target="_blank">github</a>
+    <span class="ext-sep">·</span>
+    <a href="{{ "/feed.xml" | relURL }}" class="ext-link">rss</a>
+    <span class="ext-sep">·</span>
+    <a href="mailto:utkarsh@vaproh.space" class="ext-link">email</a>
+    <button class="theme-toggle" id="theme-toggle-mobile" aria-label="toggle theme" style="margin-left:auto"><span class="theme-icon"></span></button>
+  </div>
+</div>
+<div class="nav-overlay" id="nav-overlay" aria-hidden="true"></div>

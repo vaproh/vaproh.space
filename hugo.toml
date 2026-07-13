@@ -1,0 +1,16 @@
+baseURL = 'https://vaproh.space/'
+languageCode = 'en-us'
+title = 'vaproh'
+theme = 'vaproh-theme'
+
+[params]
+  description = "Utkarsh's little corner of the internet."
+
+[permalinks]
+  archive = "/:title/"
+
+[markup.goldmark.renderer]
+  unsafe = true
+
+[markup.highlight]
+  noClasses = false
