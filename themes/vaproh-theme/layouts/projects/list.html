@@ -1,0 +1,35 @@
+{{ define "main" }}
+<div class="page-header">
+  <h1 class="page-title">{{ .Title }}</h1>
+  {{ with .Description }}<p class="page-desc">{{ . }}</p>{{ end }}
+</div>
+
+{{ with .Content }}<div class="post-content project-intro">{{ . }}</div>{{ end }}
+
+{{ if eq (len .Pages) 0 }}
+<p class="page-desc">nothing here yet. working on it.</p>
+{{ end }}
+
+<div class="project-grid">
+  {{ range .Pages }}
+  <a href="{{ .Permalink }}" class="project-card">
+    <div class="project-thumb">
+      {{ if .Params.image }}
+      <img src="{{ .Params.image }}" alt="{{ .Title }}" loading="lazy" />
+      {{ else }}
+      <div class="project-thumb-ph"></div>
+      {{ end }}
+    </div>
+    <div class="project-body">
+      <span class="project-name">{{ .Title | lower }}</span>
+      <span class="project-desc">{{ .Description }}</span>
+      {{ with .Params.tags }}
+      <div class="project-tags">
+        {{ range . }}<span class="project-tag">{{ . | lower }}</span>{{ end }}
+      </div>
+      {{ end }}
+    </div>
+  </a>
+  {{ end }}
+</div>
+{{ end }}

@@ -3,9 +3,13 @@
   {{ .Content }}
 </section>
 
-<section class="feed archive-list" aria-label="recent posts" style="margin-top: 32px;">
-  <div class="dump-title" style="margin-bottom: 24px;">latest writing</div>
-  {{ range first 7 (where .Site.RegularPages "Section" "archive") }}
+<section class="feed archive-list home-feed" aria-label="recent posts">
+  <div class="dump-title home-feed-title">latest writing</div>
+  {{ $posts := first 3 (where .Site.RegularPages "Section" "archive") }}
+  {{ if eq (len $posts) 0 }}
+  <p class="page-desc">nothing here yet. working on it.</p>
+  {{ end }}
+  {{ range $posts }}
   <div class="archive-item">
     <span class="archive-date">{{ .Date.Format "02 Jan" | lower }}</span>
     <a href="{{ .Permalink }}" class="archive-title">{{ .Title | lower }}</a>
@@ -20,9 +24,9 @@
   <a href="{{ "/archive/" | relURL }}" class="all-posts-link">all posts →</a>
 </div>
 
-<hr class="section-divider" style="margin-top: 40px;" />
+<hr class="section-divider home-divider" />
 
-<div class="dump-title" style="margin-bottom: 20px;">directory</div>
+<div class="dump-title home-dir-title">directory</div>
 <div class="home-bento">
   <a href="/about" class="bento-card">
     <span class="bento-title">about me →</span>

@@ -269,7 +269,7 @@ document.addEventListener('DOMContentLoaded', () => {
 // Image Lightbox
 // =============================================
 document.addEventListener('DOMContentLoaded', () => {
-  const images = document.querySelectorAll('.post-content img, .photo-grid img, .about-content img');
+  const images = document.querySelectorAll('.post-content img, .photo-grid img, .photo-gallery img, .about-content img');
   if (images.length === 0) return;
 
   const overlay = document.createElement('div');

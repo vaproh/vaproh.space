@@ -8,13 +8,14 @@
 
 <div class="tag-filter-bar">
   <button class="tag-filter-btn active" data-tag="all">all</button>
-  <button class="tag-filter-btn" data-tag="thoughts">thoughts</button>
-  <button class="tag-filter-btn" data-tag="devlog">devlog</button>
-  <button class="tag-filter-btn" data-tag="photos">photos</button>
-  <button class="tag-filter-btn" data-tag="life">life</button>
-  <button class="tag-filter-btn" data-tag="tools">tools</button>
-  <button class="tag-filter-btn" data-tag="writing">writing</button>
+  {{ range $name, $_ := .Site.Taxonomies.tags }}
+  <button class="tag-filter-btn" data-tag="{{ $name | lower }}">{{ $name | lower }}</button>
+  {{ end }}
 </div>
+
+{{ if eq (len .Pages) 0 }}
+<p class="page-desc">nothing here yet. working on it.</p>
+{{ end }}
 
 {{ range (.Pages.GroupByDate "2006") }}
 <div class="archive-year">{{ .Key }}</div>

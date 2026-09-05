@@ -11,18 +11,18 @@
    ==================================== */
 :root {
   /* Colors — light mode */
-  --bg:          #ffffff;
-  --bg-off:      #f7f7f7;
-  --border:      #e0e0e0;
-  --border-dim:  #eeeeee;
-  --text:        #111111;
-  --text-2:      #555555;
-  --text-3:      #999999;
+  --bg:          #faf8f5;
+  --bg-off:      #f2eee7;
+  --border:      #e5dfd3;
+  --border-dim:  #ece6da;
+  --text:        #222222;
+  --text-2:      #5c5852;
+  --text-3:      #969188;
   --link:        #0645ad;
   --link-hover:  #0b0080;
-  --code-bg:     #f5f5f5;
-  --nav-fill:    #111111;
-  --nav-fill-fg: #ffffff;
+  --code-bg:     #f2eee7;
+  --nav-fill:    #222222;
+  --nav-fill-fg: #faf8f5;
   --highlight:   #ff007f;
 
   /* Syntax */
@@ -616,8 +616,35 @@ a:active, button:active { transform: scale(0.97); }
 [data-theme="dark"] .devlog-card:hover .devlog-image { filter: grayscale(0%) contrast(1) brightness(1); }
 
 /* ====================================
-   Archive / Writing page
-   ==================================== */
+    Projects section
+    ==================================== */
+.project-intro { font-size: 19px; color: var(--text-2); margin-top: 8px; max-width: 820px; }
+.project-intro p { margin-bottom: 1em; }
+
+.project-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 24px; margin-top: 32px; }
+.project-card { display: flex; flex-direction: column; background: var(--bg-off); border: 1px solid var(--border); border-radius: 4px; overflow: hidden; text-decoration: none !important; color: var(--text); transition: all 200ms ease; }
+.project-card:hover { border-color: var(--text); transform: translateY(-4px); box-shadow: 4px 4px 0 var(--text); }
+[data-theme="dark"] .project-card:hover { box-shadow: 4px 4px 0 var(--highlight); border-color: var(--highlight); }
+
+.project-thumb { aspect-ratio: 16 / 10; background: var(--border-dim); overflow: hidden; }
+.project-thumb img { width: 100%; height: 100%; object-fit: cover; filter: grayscale(100%) contrast(1.1); transition: filter 400ms ease; }
+.project-card:hover .project-thumb img { filter: grayscale(0%) contrast(1); }
+[data-theme="dark"] .project-thumb img { filter: grayscale(100%) contrast(1.1) brightness(0.85); }
+[data-theme="dark"] .project-card:hover .project-thumb img { filter: grayscale(0%) contrast(1) brightness(1); }
+.project-thumb-ph { width: 100%; height: 100%; background: repeating-linear-gradient(45deg, var(--border-dim), var(--border-dim) 10px, var(--bg-off) 10px, var(--bg-off) 20px); }
+
+.project-body { padding: 16px 18px 20px; display: flex; flex-direction: column; gap: 6px; }
+.project-name { font-family: var(--mono); font-size: 17px; font-weight: 600; }
+.project-desc { font-family: var(--sans); font-size: 16px; color: var(--text-2); line-height: 1.5; }
+.project-tags { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 6px; }
+.project-tag { font-family: var(--mono); font-size: 11px; letter-spacing: 0.04em; text-transform: uppercase; color: var(--text-3); border: 1px solid var(--border); border-radius: 3px; padding: 2px 7px; }
+
+.project-cover { width: 100%; max-height: 460px; object-fit: cover; border: 1px solid var(--border); border-radius: 4px; margin: 20px 0 28px; filter: grayscale(100%) contrast(1.1); }
+[data-theme="dark"] .project-cover { filter: grayscale(100%) contrast(1.1) brightness(0.85); }
+
+/* ====================================
+    Archive / Writing page
+    ==================================== */
 .page-header { margin-bottom: 32px; }
 .page-title { font-family: var(--sans); font-size: 36px; font-weight: 700; letter-spacing: -0.02em; color: var(--text); }
 .page-desc { font-size: 19px; color: var(--text-3); margin-top: 8px; }
@@ -661,6 +688,13 @@ a:active, button:active { transform: scale(0.97); }
 .bento-title { font-family: var(--mono); font-size: 16px; font-weight: 600; margin-bottom: 4px; }
 .bento-desc { font-family: var(--sans); font-size: 15px; color: var(--text-2); }
 
+/* Homepage latest-writing feed — keep it tight so the directory
+   stays visible without scrolling, especially on mobile */
+.home-feed { margin-top: 32px; }
+.home-feed-title { margin-bottom: 24px; }
+.home-divider { margin-top: 40px; }
+.home-dir-title { margin-bottom: 20px; }
+
 /* ====================================
    Photos page
    ==================================== */
@@ -668,8 +702,20 @@ a:active, button:active { transform: scale(0.97); }
 .dump-title { font-family: var(--sans); font-size: 12px; font-weight: 500; letter-spacing: 0.06em; text-transform: uppercase; color: var(--text-3); margin-bottom: 12px; }
 
 /* ====================================
-   Cmd+K Menu
-   ==================================== */
+    Photos page (gallery grid)
+    ==================================== */
+.photo-gallery { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 6px; margin: 18px 0; }
+.photo-fig { margin: 0; position: relative; overflow: hidden; background: var(--bg-off); }
+.photo-fig img { width: 100%; height: 240px; object-fit: cover; display: block; filter: grayscale(100%) contrast(1.1); transition: filter 400ms ease, transform 400ms ease; }
+.photo-fig:hover img { filter: grayscale(0%) contrast(1); transform: scale(1.02); }
+[data-theme="dark"] .photo-fig img { filter: grayscale(100%) contrast(1.1) brightness(0.85); }
+[data-theme="dark"] .photo-fig:hover img { filter: grayscale(0%) contrast(1) brightness(1); }
+.photo-fig figcaption { position: absolute; left: 0; right: 0; bottom: 0; padding: 8px 10px; font-family: var(--mono); font-size: 12px; color: #fff; background: linear-gradient(transparent, rgba(0,0,0,0.6)); opacity: 0; transition: opacity 250ms ease; pointer-events: none; }
+.photo-fig:hover figcaption { opacity: 1; }
+
+/* ====================================
+    Cmd+K Menu
+    ==================================== */
 .cmd-menu { margin: auto; padding: 0; border: none; border-radius: 8px; background: var(--bg); max-width: 500px; width: 90vw; outline: none; box-shadow: 0 10px 40px rgba(0,0,0,0.1); overflow: hidden; color: var(--text); }
 .cmd-menu::backdrop { background: rgba(0,0,0,0.3); backdrop-filter: blur(2px); }
 [data-theme="dark"] .cmd-menu { box-shadow: 0 10px 40px rgba(0,0,0,0.5); border: 1px solid var(--border); }
@@ -739,6 +785,31 @@ a:active, button:active { transform: scale(0.97); }
   .section-divider { margin: 24px 0 32px; }
 
   .archive-item { flex-wrap: wrap; gap: 8px; }
+
+  /* Keep the homepage latest-writing feed compact on mobile so the
+     directory stays visible without scrolling */
+  .home-feed { margin-top: 12px; }
+  .home-feed-title { margin-bottom: 10px; }
+  .home-feed .archive-item { padding: 6px 0; }
+  .home-feed .archive-date { min-width: 48px; font-size: 13px; }
+  .home-feed .archive-title { font-size: 17px; }
+  .home-feed .archive-tag { font-size: 11px; }
+  .feed-footer { margin-top: 12px; padding-top: 12px; }
+  .home-divider { margin: 16px 0 20px; }
+  .home-dir-title { margin-bottom: 12px; }
+  .home-bento { gap: 10px; margin: 16px 0; }
+  .bento-card { padding: 12px 14px; }
+  .bento-title { font-size: 14px; }
+  .bento-desc { font-size: 13px; }
+
+  .project-grid { grid-template-columns: 1fr; gap: 16px; margin-top: 24px; }
+  .project-thumb { aspect-ratio: 16 / 9; }
+  .project-cover { margin: 16px 0 20px; }
+
+  .photo-gallery { grid-template-columns: repeat(2, 1fr); gap: 4px; }
+  .photo-fig img { height: 150px; }
+  .photo-fig figcaption { opacity: 1; padding: 4px 6px; font-size: 10px; }
+
   .archive-tag { margin-left: 0; }
 
   .devlog-image { height: 220px; }

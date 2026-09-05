@@ -1,5 +1,5 @@
 baseURL = 'https://vaproh.space/'
-languageCode = 'en-us'
+locale = 'en-US'
 title = 'vaproh'
 theme = 'vaproh-theme'
 

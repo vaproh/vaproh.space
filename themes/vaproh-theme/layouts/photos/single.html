@@ -1,0 +1,30 @@
+{{ define "main" }}
+<article>
+  <header class="post-header">
+    <h1 class="post-title">{{ .Title }}</h1>
+    {{ with .Description }}<p class="post-subtitle">{{ . }}</p>{{ end }}
+    <hr class="post-header-divider" />
+  </header>
+
+  <div class="post-content">
+    {{ .Content }}
+
+    {{ $captions := dict }}
+    {{ with hugo.Data.photos }}{{ range .images }}{{ $captions = merge $captions (dict .file .caption) }}{{ end }}{{ end }}
+
+    {{ with .Resources.ByType "image" }}
+    <div class="photo-gallery">
+      {{ range . }}
+      {{ $caption := index $captions .Name }}
+      <figure class="photo-fig">
+        <img src="{{ .RelPermalink }}" alt="{{ $caption | default .Name }}" title="{{ $caption }}" loading="lazy" />
+        {{ with $caption }}<figcaption>{{ . }}</figcaption>{{ end }}
+      </figure>
+      {{ end }}
+    </div>
+    {{ else }}
+    <p class="page-desc">no photos yet — drop image files into <code>content/photos/</code>.</p>
+    {{ end }}
+  </div>
+</article>
+{{ end }}
