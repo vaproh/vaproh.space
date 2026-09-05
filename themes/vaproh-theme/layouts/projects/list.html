@@ -12,9 +12,10 @@
 
 <div class="project-grid">
   {{ range .Pages }}
-  <a href="{{ .Permalink }}" class="project-card">
+  <a href="{{ .Params.link | default .Permalink }}" class="project-card" data-modal="{{ .File.ContentBaseName }}">
     <div class="project-thumb">
       {{ if .Params.image }}
+      <img src="{{ .Params.image }}" alt="" class="project-thumb-bg" loading="lazy" aria-hidden="true" />
       <img src="{{ .Params.image }}" alt="{{ .Title }}" loading="lazy" />
       {{ else }}
       <div class="project-thumb-ph"></div>
@@ -32,4 +33,23 @@
   </a>
   {{ end }}
 </div>
+
+{{ range .Pages }}
+<dialog class="project-modal" id="modal-{{ .File.ContentBaseName }}" aria-label="{{ .Title }}">
+  <div class="modal-bar">
+    <span class="modal-title">{{ .Title | lower }}</span>
+    {{ with .Params.link }}<a href="{{ . }}" target="_blank" rel="noopener noreferrer" class="modal-link">repo →</a>{{ end }}
+    <button type="button" class="modal-close" aria-label="close">✕</button>
+  </div>
+  {{ with .Params.image }}
+  <div class="modal-shot">
+    <img src="{{ . }}" alt="" class="project-thumb-bg" loading="lazy" aria-hidden="true" />
+    <img src="{{ . }}" alt="{{ $.Title }} screenshot" loading="lazy" />
+  </div>
+  {{ end }}
+  <div class="modal-body post-content">
+    {{ .Content }}
+  </div>
+</dialog>
+{{ end }}
 {{ end }}

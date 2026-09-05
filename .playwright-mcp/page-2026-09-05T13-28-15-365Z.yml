@@ -1,0 +1,95 @@
+- generic [active] [ref=f17e1]:
+  - banner [ref=f17e2]:
+    - generic [ref=f17e3]:
+      - link "vaproh" [ref=f17e4] [cursor=pointer]:
+        - /url: /
+      - navigation "main navigation" [ref=f17e5]:
+        - link "home" [ref=f17e6] [cursor=pointer]:
+          - /url: /
+        - link "archive" [ref=f17e7] [cursor=pointer]:
+          - /url: /archive/
+        - link "projects" [ref=f17e8] [cursor=pointer]:
+          - /url: /projects/
+        - link "photos" [ref=f17e9] [cursor=pointer]:
+          - /url: /photos/
+        - link "uses" [ref=f17e10] [cursor=pointer]:
+          - /url: /uses/
+        - link "about" [ref=f17e11] [cursor=pointer]:
+          - /url: /about/
+        - link "socials" [ref=f17e12] [cursor=pointer]:
+          - /url: /socials/
+      - button "toggle theme" [ref=f17e13] [cursor=pointer]
+  - main [ref=f17e20]:
+    - generic [ref=f17e21]:
+      - heading "projects" [level=1] [ref=f17e22]
+      - paragraph [ref=f17e23]: things i've built.
+    - generic [ref=f17e24]:
+      - link "clipin clipin india's performance clipping marketplace. built with nuxt 3 + go. web go vue" [ref=f17e25] [cursor=pointer]:
+        - /url: https://github.com/vaproh/clipin
+        - img "clipin" [ref=f17e28]
+        - generic [ref=f17e29]:
+          - generic [ref=f17e30]: clipin
+          - generic [ref=f17e31]: india's performance clipping marketplace. built with nuxt 3 + go.
+          - generic [ref=f17e32]:
+            - generic [ref=f17e33]: web
+            - generic [ref=f17e34]: go
+            - generic [ref=f17e35]: vue
+      - link "dontforget dontforget your edentic memory. python" [ref=f17e36] [cursor=pointer]:
+        - /url: https://github.com/vaproh/dontforget
+        - img "dontforget" [ref=f17e39]
+        - generic [ref=f17e40]:
+          - generic [ref=f17e41]: dontforget
+          - generic [ref=f17e42]: your edentic memory.
+          - generic [ref=f17e43]: python
+      - link "awesome-coding-plans awesome-coding-plans a curated comparison of ai coding subscriptions and token plans. 20+ plans compared. web astro" [ref=f17e45] [cursor=pointer]:
+        - /url: https://awesome-coding-plans.netlify.app/
+        - img "awesome-coding-plans" [ref=f17e48]
+        - generic [ref=f17e49]:
+          - generic [ref=f17e50]: awesome-coding-plans
+          - generic [ref=f17e51]: a curated comparison of ai coding subscriptions and token plans. 20+ plans compared.
+          - generic [ref=f17e52]:
+            - generic [ref=f17e53]: web
+            - generic [ref=f17e54]: astro
+      - link "larpfetch larpfetch larp as any distro, hardware, or machine you want. reality is optional until you pass --real-shit. python cli" [ref=f17e55] [cursor=pointer]:
+        - /url: https://github.com/vaproh/larpfetch
+        - img "larpfetch" [ref=f17e58]
+        - generic [ref=f17e59]:
+          - generic [ref=f17e60]: larpfetch
+          - generic [ref=f17e61]: larp as any distro, hardware, or machine you want. reality is optional until you pass --real-shit.
+          - generic [ref=f17e62]:
+            - generic [ref=f17e63]: python
+            - generic [ref=f17e64]: cli
+      - link "ReOrchestra reorchestra bulk reddit account automation with task-based queuing, automatic rate limiting, and stealth browser integration. python automation" [ref=f17e65] [cursor=pointer]:
+        - /url: https://github.com/vaproh/ReOrchestra
+        - img "ReOrchestra" [ref=f17e68]
+        - generic [ref=f17e69]:
+          - generic [ref=f17e70]: reorchestra
+          - generic [ref=f17e71]: bulk reddit account automation with task-based queuing, automatic rate limiting, and stealth browser integration.
+          - generic [ref=f17e72]:
+            - generic [ref=f17e73]: python
+            - generic [ref=f17e74]: automation
+      - link "ig-pulse ig-pulse telegram bot that tracks instagram account status, detects bans and restorations instantly. python bot" [ref=f17e75] [cursor=pointer]:
+        - /url: https://github.com/vaproh/ig-pulse
+        - img "ig-pulse" [ref=f17e78]
+        - generic [ref=f17e79]:
+          - generic [ref=f17e80]: ig-pulse
+          - generic [ref=f17e81]: telegram bot that tracks instagram account status, detects bans and restorations instantly.
+          - generic [ref=f17e82]:
+            - generic [ref=f17e83]: python
+            - generic [ref=f17e84]: bot
+    - text: “ “ “ “ “ “ “ “ “
+  - contentinfo [ref=f17e85]:
+    - generic [ref=f17e86]:
+      - generic [ref=f17e87]:
+        - generic [ref=f17e88]: vaproh
+        - generic [ref=f17e89]: ·
+        - generic [ref=f17e90]: © 2026
+        - generic [ref=f17e91]: ·
+        - generic [ref=f17e92]: "local time: 06:58 PM"
+      - generic [ref=f17e93]:
+        - link "github" [ref=f17e94] [cursor=pointer]:
+          - /url: https://github.com/vaproh
+        - link "rss" [ref=f17e95] [cursor=pointer]:
+          - /url: /feed.xml
+        - link "email" [ref=f17e96] [cursor=pointer]:
+          - /url: mailto:utkarsh@vaproh.space

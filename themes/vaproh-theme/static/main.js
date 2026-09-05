@@ -306,3 +306,39 @@ function updateAge() {
   ageEl.textContent = age.toFixed(1);
 }
 document.addEventListener('DOMContentLoaded', updateAge);
+
+// =============================================
+// Project card modal
+// =============================================
+document.addEventListener('DOMContentLoaded', () => {
+  const cards = document.querySelectorAll('.project-card');
+  if (cards.length === 0) return;
+
+  cards.forEach(card => {
+    const modal = document.getElementById('modal-' + card.dataset.modal);
+    if (!modal) return;
+
+    card.addEventListener('click', (e) => {
+      if (e.metaKey || e.ctrlKey || e.shiftKey || e.button !== 0) return;
+      e.preventDefault();
+      modal.showModal();
+      modal.dataset.openedAt = String(performance.now());
+      modal.dataset.openedX = String(e.clientX);
+      modal.dataset.openedY = String(e.clientY);
+    });
+  });
+
+  document.querySelectorAll('.project-modal').forEach(modal => {
+    modal.querySelector('.modal-close').addEventListener('click', () => modal.close());
+    modal.addEventListener('click', (e) => {
+      if (e.target !== modal) return;
+      if (performance.now() - Number(modal.dataset.openedAt || 0) < 600) return;
+      const dx = e.clientX - Number(modal.dataset.openedX || 0);
+      const dy = e.clientY - Number(modal.dataset.openedY || 0);
+      if (dx * dx + dy * dy < 225) return;
+      const r = modal.getBoundingClientRect();
+      const outside = e.clientX < r.left || e.clientX > r.right || e.clientY < r.top || e.clientY > r.bottom;
+      if (outside) modal.close();
+    });
+  });
+});

@@ -1,0 +1,1033 @@
+- generic [ref=f2e2]:
+  - generic [ref=f2e3]:
+    - link "Skip to content" [ref=f2e4] [cursor=pointer]:
+      - /url: "#start-of-content"
+    - banner [ref=f2e9]:
+      - heading "Navigation Menu" [level=2] [ref=f2e10]
+      - generic [ref=f2e11]:
+        - link "Homepage" [ref=f2e13] [cursor=pointer]:
+          - /url: /
+        - generic [ref=f2e16]:
+          - navigation "Global" [ref=f2e17]:
+            - list [ref=f2e18]:
+              - listitem [ref=f2e19]:
+                - button "Platform" [ref=f2e21] [cursor=pointer]
+              - listitem [ref=f2e24]:
+                - button "Solutions" [ref=f2e26] [cursor=pointer]
+              - listitem [ref=f2e29]:
+                - button "Resources" [ref=f2e31] [cursor=pointer]
+              - listitem [ref=f2e34]:
+                - button "Open Source" [ref=f2e36] [cursor=pointer]
+              - listitem [ref=f2e39]:
+                - button "Enterprise" [ref=f2e41] [cursor=pointer]
+              - listitem [ref=f2e44]:
+                - link "Pricing" [ref=f2e45] [cursor=pointer]:
+                  - /url: https://github.com/pricing
+          - generic [ref=f2e46]:
+            - button "Search or jump to, type / to search" [ref=f2e48] [cursor=pointer]:
+              - generic [ref=f2e51]:
+                - generic [ref=f2e52]: Search
+                - generic [aria-hidden] [ref=f2e53]: /
+            - link "Sign in" [ref=f2e55] [cursor=pointer]:
+              - /url: /login?return_to=https%3A%2F%2Fgithub.com%2Fvaproh%2Flarpfetch
+            - link "Sign up" [ref=f2e58] [cursor=pointer]:
+              - /url: /signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F%3Cuser-name%3E%2F%3Crepo-name%3E&source=header-repo&source_repo=vaproh%2Flarpfetch
+            - button "Appearance settings" [ref=f2e61] [cursor=pointer]
+  - main [ref=f2e68]:
+    - generic [ref=f2e69]:
+      - generic [ref=f2e70]:
+        - generic [ref=f2e72]:
+          - link "vaproh" [ref=f2e76] [cursor=pointer]:
+            - /url: /vaproh
+          - generic [ref=f2e77]: /
+          - strong [ref=f2e78]:
+            - link "larpfetch" [ref=f2e79] [cursor=pointer]:
+              - /url: /vaproh/larpfetch
+          - generic [ref=f2e80]: Public
+        - generic [ref=f2e81]:
+          - list:
+            - listitem [ref=f2e82]:
+              - link "You must be signed in to change notification settings" [ref=f2e83] [cursor=pointer]:
+                - /url: /login?return_to=%2Fvaproh%2Flarpfetch
+                - text: Notifications
+            - listitem [ref=f2e86]:
+              - link "Fork 0" [ref=f2e87] [cursor=pointer]:
+                - /url: /login?return_to=%2Fvaproh%2Flarpfetch
+                - text: Fork
+                - generic "0" [ref=f2e90]
+            - listitem [ref=f2e91]:
+              - link "You must be signed in to star a repository" [ref=f2e93] [cursor=pointer]:
+                - /url: /login?return_to=%2Fvaproh%2Flarpfetch
+                - text: Star
+                - generic "7 users starred this repository" [ref=f2e96]: "7"
+      - navigation "Repository" [ref=f2e97]:
+        - list [ref=f2e98]:
+          - listitem [ref=f2e99]:
+            - link "Code" [ref=f2e100] [cursor=pointer]:
+              - /url: /vaproh/larpfetch
+          - listitem [ref=f2e104]:
+            - link "Issues" [ref=f2e105] [cursor=pointer]:
+              - /url: /vaproh/larpfetch/issues
+          - listitem [ref=f2e110]:
+            - link "Pull requests" [ref=f2e111] [cursor=pointer]:
+              - /url: /vaproh/larpfetch/pulls
+          - listitem [ref=f2e115]:
+            - link "Actions" [ref=f2e116] [cursor=pointer]:
+              - /url: /vaproh/larpfetch/actions
+          - listitem [ref=f2e120]:
+            - link "Projects" [ref=f2e121] [cursor=pointer]:
+              - /url: /vaproh/larpfetch/projects
+          - listitem [ref=f2e125]:
+            - link "Security and quality" [ref=f2e126] [cursor=pointer]:
+              - /url: /vaproh/larpfetch/security
+          - listitem [ref=f2e130]:
+            - link "Insights" [ref=f2e131] [cursor=pointer]:
+              - /url: /vaproh/larpfetch/pulse
+    - generic [ref=f2e148]:
+      - generic [ref=f2e151]:
+        - generic [ref=f2e152]:
+          - generic [ref=f2e153]:
+            - button "main branch" [ref=f2e155] [cursor=pointer]:
+              - generic [ref=f2e156]: main
+            - generic [ref=f2e160]:
+              - link "Branches" [ref=f2e161] [cursor=pointer]:
+                - /url: /vaproh/larpfetch/branches
+              - link "Tags" [ref=f2e164] [cursor=pointer]:
+                - /url: /vaproh/larpfetch/tags
+          - generic [ref=f2e167]:
+            - combobox "Go to file" [ref=f2e175]
+            - button "Code" [ref=f2e176] [cursor=pointer]
+        - generic [ref=f2e179]:
+          - generic [ref=f2e180]:
+            - generic [ref=f2e182]:
+              - heading "Latest commit" [level=2] [ref=f2e183]
+              - generic [ref=f2e186]:
+                - heading "History" [level=2] [ref=f2e187]
+                - link "95 Commits" [ref=f2e188] [cursor=pointer]:
+                  - /url: /vaproh/larpfetch/commits/main/
+            - heading "Folders and files" [level=2] [ref=f2e191]
+            - table "Folders and files" [ref=f2e192]:
+              - rowgroup:
+                - row "Name Last commit message Last commit date":
+                  - columnheader "Name"
+                  - columnheader "Last commit message"
+                  - columnheader "Last commit date"
+              - rowgroup [ref=f2e193]:
+                - row "assets, (Directory)" [ref=f2e194]:
+                  - cell [ref=f2e195]:
+                    - link "assets, (Directory)" [ref=f2e202] [cursor=pointer]:
+                      - /url: /vaproh/larpfetch/tree/main/assets
+                      - text: assets
+                  - cell [ref=f2e203]
+                  - cell [ref=f2e205]
+                - row "docs, (Directory)" [ref=f2e208]:
+                  - cell [ref=f2e209]:
+                    - link "docs, (Directory)" [ref=f2e216] [cursor=pointer]:
+                      - /url: /vaproh/larpfetch/tree/main/docs
+                      - text: docs
+                  - cell [ref=f2e217]
+                  - cell [ref=f2e219]
+                - row "scripts, (Directory)" [ref=f2e222]:
+                  - cell [ref=f2e223]:
+                    - link "scripts, (Directory)" [ref=f2e230] [cursor=pointer]:
+                      - /url: /vaproh/larpfetch/tree/main/scripts
+                      - text: scripts
+                  - cell [ref=f2e231]
+                  - cell [ref=f2e233]
+                - row "src/larpfetch, (Directory)" [ref=f2e236]:
+                  - cell [ref=f2e237]:
+                    - link "src/larpfetch, (Directory)" [ref=f2e244] [cursor=pointer]:
+                      - /url: /vaproh/larpfetch/tree/main/src/larpfetch
+                      - text: src/larpfetch
+                  - cell [ref=f2e245]
+                  - cell [ref=f2e247]
+                - row "tests, (Directory)" [ref=f2e250]:
+                  - cell [ref=f2e251]:
+                    - link "tests, (Directory)" [ref=f2e258] [cursor=pointer]:
+                      - /url: /vaproh/larpfetch/tree/main/tests
+                      - text: tests
+                  - cell [ref=f2e259]
+                  - cell [ref=f2e261]
+                - row ".env.example, (File)" [ref=f2e264]:
+                  - cell [ref=f2e265]:
+                    - link ".env.example, (File)" [ref=f2e272] [cursor=pointer]:
+                      - /url: /vaproh/larpfetch/blob/main/.env.example
+                      - text: .env.example
+                  - cell [ref=f2e273]
+                  - cell [ref=f2e275]
+                - row ".gitignore, (File)" [ref=f2e278]:
+                  - cell [ref=f2e279]:
+                    - link ".gitignore, (File)" [ref=f2e286] [cursor=pointer]:
+                      - /url: /vaproh/larpfetch/blob/main/.gitignore
+                      - text: .gitignore
+                  - cell [ref=f2e287]
+                  - cell [ref=f2e289]
+                - row "AGENTS.md, (File)" [ref=f2e292]:
+                  - cell [ref=f2e293]:
+                    - link "AGENTS.md, (File)" [ref=f2e300] [cursor=pointer]:
+                      - /url: /vaproh/larpfetch/blob/main/AGENTS.md
+                      - text: AGENTS.md
+                  - cell [ref=f2e301]
+                  - cell [ref=f2e303]
+                - row "CHANGELOG.md, (File)" [ref=f2e306]:
+                  - cell [ref=f2e307]:
+                    - link "CHANGELOG.md, (File)" [ref=f2e314] [cursor=pointer]:
+                      - /url: /vaproh/larpfetch/blob/main/CHANGELOG.md
+                      - text: CHANGELOG.md
+                  - cell [ref=f2e315]
+                  - cell [ref=f2e317]
+                - row "Justfile, (File)" [ref=f2e320]:
+                  - cell [ref=f2e321]:
+                    - link "Justfile, (File)" [ref=f2e328] [cursor=pointer]:
+                      - /url: /vaproh/larpfetch/blob/main/Justfile
+                      - text: Justfile
+                  - cell [ref=f2e329]
+                  - cell [ref=f2e331]
+                - row "LICENSE, (File)" [ref=f2e334]:
+                  - cell [ref=f2e335]:
+                    - link "LICENSE, (File)" [ref=f2e342] [cursor=pointer]:
+                      - /url: /vaproh/larpfetch/blob/main/LICENSE
+                      - text: LICENSE
+                  - cell [ref=f2e343]
+                  - cell [ref=f2e345]
+                - row "PRD.md, (File)" [ref=f2e348]:
+                  - cell [ref=f2e349]:
+                    - link "PRD.md, (File)" [ref=f2e356] [cursor=pointer]:
+                      - /url: /vaproh/larpfetch/blob/main/PRD.md
+                      - text: PRD.md
+                  - cell [ref=f2e357]
+                  - cell [ref=f2e359]
+                - row "README.md, (File)" [ref=f2e362]:
+                  - cell [ref=f2e363]:
+                    - link "README.md, (File)" [ref=f2e370] [cursor=pointer]:
+                      - /url: /vaproh/larpfetch/blob/main/README.md
+                      - text: README.md
+                  - cell [ref=f2e371]
+                  - cell [ref=f2e373]
+                - row "ROADMAP.md, (File)" [ref=f2e376]:
+                  - cell [ref=f2e377]:
+                    - link "ROADMAP.md, (File)" [ref=f2e384] [cursor=pointer]:
+                      - /url: /vaproh/larpfetch/blob/main/ROADMAP.md
+                      - text: ROADMAP.md
+                  - cell [ref=f2e385]
+                  - cell [ref=f2e387]
+                - row "pyproject.toml, (File)" [ref=f2e390]:
+                  - cell [ref=f2e391]:
+                    - link "pyproject.toml, (File)" [ref=f2e398] [cursor=pointer]:
+                      - /url: /vaproh/larpfetch/blob/main/pyproject.toml
+                      - text: pyproject.toml
+                  - cell [ref=f2e399]
+                  - cell [ref=f2e401]
+                - row "uv.lock, (File)" [ref=f2e404]:
+                  - cell [ref=f2e405]:
+                    - link "uv.lock, (File)" [ref=f2e412] [cursor=pointer]:
+                      - /url: /vaproh/larpfetch/blob/main/uv.lock
+                      - text: uv.lock
+                  - cell [ref=f2e413]
+                  - cell [ref=f2e415]
+          - generic [ref=f2e419]:
+            - generic [ref=f2e420]:
+              - heading "Repository files navigation" [level=2] [ref=f2e421]
+              - navigation "Repository files" [ref=f2e422]:
+                - list [ref=f2e423]:
+                  - listitem [ref=f2e424]:
+                    - link "README" [ref=f2e425] [cursor=pointer]:
+                      - /url: "#"
+                  - listitem [ref=f2e430]:
+                    - link "MIT license" [ref=f2e431] [cursor=pointer]:
+                      - /url: "#"
+              - button "Outline" [ref=f2e436] [cursor=pointer]
+            - article [ref=f2e440]:
+              - generic [ref=f2e441]:
+                - heading "larpfetch" [level=1] [ref=f2e442]
+                - 'link "Permalink: larpfetch" [ref=f2e443] [cursor=pointer]':
+                  - /url: "#larpfetch"
+              - blockquote [ref=f2e446]:
+                - paragraph [ref=f2e447]:
+                  - strong [ref=f2e448]:
+                    - text: LARP as any distro, hardware, or machine you want. Because reality is optional until you pass
+                    - code [ref=f2e449]: "--real-shit"
+                    - text: .
+              - blockquote [ref=f2e450]:
+                - paragraph [ref=f2e451]:
+                  - strong [ref=f2e452]: 100% made by autonomous coding agents
+                  - text: — no human writes code here. See
+                  - link "AGENTS.md" [ref=f2e453] [cursor=pointer]:
+                    - /url: /vaproh/larpfetch/blob/main/AGENTS.md
+                  - text: for the operating manual.
+              - blockquote [ref=f2e454]:
+                - paragraph [ref=f2e455]:
+                  - text: If you like this project, drop a ⭐ on
+                  - link "GitHub" [ref=f2e456] [cursor=pointer]:
+                    - /url: https://github.com/vaproh/larpfetch
+                  - text: — it helps others find it.
+              - paragraph [ref=f2e457]:
+                - link [ref=f2e458] [cursor=pointer]:
+                  - /url: https://pypi.org/project/larpfetch/
+                  - img "PyPI - Version" [ref=f2e459]
+                - link [ref=f2e460] [cursor=pointer]:
+                  - /url: /vaproh/larpfetch/blob/main/LICENSE
+                  - img "GitHub License" [ref=f2e461]
+                - link [ref=f2e462] [cursor=pointer]:
+                  - /url: https://github.com/vaproh/larpfetch/commits/main
+                  - img "GitHub last commit" [ref=f2e463]
+                - link [ref=f2e464] [cursor=pointer]:
+                  - /url: https://python.org
+                  - img "Built with Python" [ref=f2e465]
+                - link [ref=f2e466] [cursor=pointer]:
+                  - /url: https://github.com/giampaolo/psutil
+                  - img "Powered by psutil" [ref=f2e467]
+                - link [ref=f2e468] [cursor=pointer]:
+                  - /url: https://github.com/fastfetch-cli/fastfetch
+                  - img "Logos from fastfetch" [ref=f2e469]
+                - link [ref=f2e470] [cursor=pointer]:
+                  - /url: /vaproh/larpfetch/blob/main/AGENTS.md
+                  - img "100% Autonomous" [ref=f2e471]
+              - table [ref=f2e473]:
+                - rowgroup [ref=f2e474]:
+                  - row [ref=f2e475]:
+                    - columnheader [ref=f2e476]
+                    - columnheader [ref=f2e477]
+                - rowgroup [ref=f2e478]:
+                  - row [ref=f2e479]:
+                    - cell "A cross-platform terminal fetch utility that detects real system information and lets you lie about it. Ships with 533 colored ASCII logos from fastfetch and 13 built-in LARP profiles." [ref=f2e480]
+                    - cell [ref=f2e481]:
+                      - link [ref=f2e483] [cursor=pointer]:
+                        - /url: /vaproh/larpfetch/blob/main/assets/larp-meme.gif
+                        - img "There's no limit to the LARP" [ref=f2e484]
+              - generic [ref=f2e485]:
+                - heading "Demo" [level=2] [ref=f2e486]
+                - 'link "Permalink: Demo" [ref=f2e487] [cursor=pointer]':
+                  - /url: "#demo"
+              - paragraph [ref=f2e490]:
+                - link [ref=f2e492] [cursor=pointer]:
+                  - /url: /vaproh/larpfetch/blob/main/assets/demo.gif
+                  - img "larpfetch demo" [ref=f2e493]
+              - generic [ref=f2e494]:
+                - heading "Installation" [level=2] [ref=f2e495]
+                - 'link "Permalink: Installation" [ref=f2e496] [cursor=pointer]':
+                  - /url: "#installation"
+              - generic [ref=f2e499]:
+                - generic [ref=f2e500]: uv tool install larpfetch
+                - button "Copy code to clipboard" [ref=f2e502] [cursor=pointer]
+              - paragraph [ref=f2e506]: "Or with pipx:"
+              - generic [ref=f2e507]:
+                - generic [ref=f2e508]: pipx install larpfetch
+                - button "Copy code to clipboard" [ref=f2e510] [cursor=pointer]
+              - blockquote [ref=f2e514]:
+                - paragraph [ref=f2e515]:
+                  - strong [ref=f2e516]: "Note:"
+                  - text: "If pipx installs an older version, it may have a stale cache. Fix with:"
+                - generic [ref=f2e517]:
+                  - generic [ref=f2e518]: pipx uninstall larpfetch && pipx install --index-url https://pypi.org/simple/ larpfetch
+                  - button "Copy code to clipboard" [ref=f2e520] [cursor=pointer]
+              - generic [ref=f2e524]:
+                - heading "Upgrade" [level=3] [ref=f2e525]
+                - 'link "Permalink: Upgrade" [ref=f2e526] [cursor=pointer]':
+                  - /url: "#upgrade"
+              - generic [ref=f2e529]:
+                - generic [ref=f2e530]:
+                  - text: uv tool upgrade larpfetch
+                  - generic [ref=f2e531]: "# uv"
+                  - text: pipx upgrade larpfetch
+                  - generic [ref=f2e532]: "# pipx"
+                - button "Copy code to clipboard" [ref=f2e534] [cursor=pointer]
+              - generic [ref=f2e538]:
+                - heading "Clear cache" [level=3] [ref=f2e539]
+                - 'link "Permalink: Clear cache" [ref=f2e540] [cursor=pointer]':
+                  - /url: "#clear-cache"
+              - generic [ref=f2e543]:
+                - generic [ref=f2e544]:
+                  - text: uv cache clean
+                  - generic [ref=f2e545]: "# uv"
+                  - text: pipx uninstall larpfetch && pipx install larpfetch
+                  - generic [ref=f2e546]: "# pipx"
+                - button "Copy code to clipboard" [ref=f2e548] [cursor=pointer]
+              - generic [ref=f2e552]:
+                - heading "Usage" [level=2] [ref=f2e553]
+                - 'link "Permalink: Usage" [ref=f2e554] [cursor=pointer]':
+                  - /url: "#usage"
+              - generic [ref=f2e557]:
+                - generic [ref=f2e558]:
+                  - text: larpfetch
+                  - generic [ref=f2e559]: "# Show real system info with auto-detected logo"
+                  - text: larpfetch -p nasa
+                  - generic [ref=f2e560]: "# LARP as NASA Linux"
+                  - text: larpfetch -p hacker
+                  - generic [ref=f2e561]: "# Become a Parrot OS hacker"
+                  - text: larpfetch --distro gentoo
+                  - generic [ref=f2e562]: "# LARP as a specific distro"
+                  - text: larpfetch --small
+                  - generic [ref=f2e563]: "# Use small ASCII art"
+                  - text: larpfetch --json
+                  - generic [ref=f2e564]: "# Output as JSON"
+                  - text: larpfetch --diff-real
+                  - generic [ref=f2e565]: "# Show only what differs from reality"
+                  - text: larpfetch --show-sources
+                  - generic [ref=f2e566]: "# Show where each value came from"
+                  - text: larpfetch --shell-info
+                  - generic [ref=f2e567]: "# Show shell version"
+                  - text: larpfetch --gpu-info
+                  - generic [ref=f2e568]: "# Show GPU driver details"
+                  - text: larpfetch --disk-info
+                  - generic [ref=f2e569]: "# Show per-disk breakdown (disk holding $HOME by default)"
+                  - text: larpfetch --disk-info /data
+                  - generic [ref=f2e570]: "# Show only the /data disk"
+                  - text: larpfetch --disk-info all
+                  - generic [ref=f2e571]: "# Include virtual mounts (tmpfs, proc, …)"
+                  - text: larpfetch --minimal
+                  - generic [ref=f2e572]: "# Show a short field set"
+                  - text: larpfetch --compact
+                  - generic [ref=f2e573]: "# Show standard fields without the logo"
+                  - text: larpfetch --full
+                  - generic [ref=f2e574]: "# Show all fields"
+                  - text: larpfetch --real-shit
+                  - generic [ref=f2e575]: "# Show only real detected values"
+                  - text: larpfetch --list-profiles
+                  - generic [ref=f2e576]: "# List all available profiles"
+                  - text: larpfetch --show-config
+                  - generic [ref=f2e577]: "# Show current configuration"
+                  - text: larpfetch --generate-config
+                  - generic [ref=f2e578]: "# Print a starter config"
+                - button "Copy code to clipboard" [ref=f2e580] [cursor=pointer]
+              - generic [ref=f2e584]:
+                - heading "Override any field" [level=3] [ref=f2e585]
+                - 'link "Permalink: Override any field" [ref=f2e586] [cursor=pointer]':
+                  - /url: "#override-any-field"
+              - generic [ref=f2e589]:
+                - generic [ref=f2e590]:
+                  - text: larpfetch --set cpu=
+                  - generic [ref=f2e591]: "\"Quantum Potato 9000\""
+                  - text: larpfetch --set os=
+                  - generic [ref=f2e592]: "\"Windows 11 Pro\""
+                  - text: "--set kernel="
+                  - generic [ref=f2e593]: "\"6.18.7-arch1-1\""
+                  - text: larpfetch --distro fedora --set os=
+                  - generic [ref=f2e594]: "\"Fedora Linux\""
+                - button "Copy code to clipboard" [ref=f2e596] [cursor=pointer]
+              - paragraph [ref=f2e600]: Custom fields are supported. Unknown fields display with auto-formatted labels.
+              - generic [ref=f2e601]:
+                - heading "Built-in Profiles" [level=2] [ref=f2e602]
+                - 'link "Permalink: Built-in Profiles" [ref=f2e603] [cursor=pointer]':
+                  - /url: "#built-in-profiles"
+              - table [ref=f2e607]:
+                - rowgroup [ref=f2e608]:
+                  - row [ref=f2e609]:
+                    - columnheader "Profile" [ref=f2e610]
+                    - columnheader "OS" [ref=f2e611]
+                    - columnheader "Highlights" [ref=f2e612]
+                - rowgroup [ref=f2e613]:
+                  - row [ref=f2e614]:
+                    - cell [ref=f2e615]:
+                      - code [ref=f2e616]: nasa
+                    - cell "NASA Linux" [ref=f2e617]
+                    - cell "Quantum Potato 9000, 69 PiB RAM, Classified GPU" [ref=f2e618]
+                  - row [ref=f2e619]:
+                    - cell [ref=f2e620]:
+                      - code [ref=f2e621]: abomination
+                    - cell "Windows 11 Pro" [ref=f2e622]
+                    - cell "Apple M7 Ultra, HolyC shell, GNOME 83" [ref=f2e623]
+                  - row [ref=f2e624]:
+                    - cell [ref=f2e625]:
+                      - code [ref=f2e626]: hacker
+                    - cell "Parrot OS" [ref=f2e627]
+                    - cell "RTX 4090, 128 GiB, KDE Plasma 6" [ref=f2e628]
+                  - row [ref=f2e629]:
+                    - cell [ref=f2e630]:
+                      - code [ref=f2e631]: macbook
+                    - cell "macOS Sequoia" [ref=f2e632]
+                    - cell "M4 Max, 40-core GPU, Aqua DE" [ref=f2e633]
+                  - row [ref=f2e634]:
+                    - cell [ref=f2e635]:
+                      - code [ref=f2e636]: server
+                    - cell "Ubuntu Server 24.04" [ref=f2e637]
+                    - cell "EPYC 9654, 2 TiB RAM, headless" [ref=f2e638]
+                  - row [ref=f2e639]:
+                    - cell [ref=f2e640]:
+                      - code [ref=f2e641]: retro
+                    - cell "Windows 98 SE" [ref=f2e642]
+                    - cell "Pentium III, Voodoo3, 256 MiB" [ref=f2e643]
+                  - row [ref=f2e644]:
+                    - cell [ref=f2e645]:
+                      - code [ref=f2e646]: gamer
+                    - cell "Windows 11 Pro" [ref=f2e647]
+                    - cell "Ryzen 9 9950X3D, RTX 5090" [ref=f2e648]
+                  - row [ref=f2e649]:
+                    - cell [ref=f2e650]:
+                      - code [ref=f2e651]: minimal
+                    - cell "Alpine Linux" [ref=f2e652]
+                    - cell "512 MiB, ash shell" [ref=f2e653]
+                  - row [ref=f2e654]:
+                    - cell [ref=f2e655]:
+                      - code [ref=f2e656]: templeos
+                    - cell "TempleOS" [ref=f2e657]
+                    - cell "HolyC, 640x480 16-color" [ref=f2e658]
+                  - row [ref=f2e659]:
+                    - cell [ref=f2e660]:
+                      - code [ref=f2e661]: haiku
+                    - cell "Haiku R1/beta4" [ref=f2e662]
+                    - cell "Haiku Desktop" [ref=f2e663]
+                  - row [ref=f2e664]:
+                    - cell [ref=f2e665]:
+                      - code [ref=f2e666]: steamdeck
+                    - cell "SteamOS 3.6" [ref=f2e667]
+                    - cell "AMD Custom Zen 2, RDNA 2" [ref=f2e668]
+                  - row [ref=f2e669]:
+                    - cell [ref=f2e670]:
+                      - code [ref=f2e671]: ghostbsd
+                    - cell "GhostBSD 24.04" [ref=f2e672]
+                    - cell "Intel Core i7, UHD Graphics 770" [ref=f2e673]
+                  - row [ref=f2e674]:
+                    - cell [ref=f2e675]:
+                      - code [ref=f2e676]: android
+                    - cell "Android 14" [ref=f2e677]
+                    - cell "Snapdragon 8 Gen 3, Adreno 750" [ref=f2e678]
+              - paragraph [ref=f2e679]: User-defined profiles in your config file override built-in ones with the same name.
+              - generic [ref=f2e680]:
+                - heading "Configuration" [level=2] [ref=f2e681]
+                - 'link "Permalink: Configuration" [ref=f2e682] [cursor=pointer]':
+                  - /url: "#configuration"
+              - paragraph [ref=f2e685]:
+                - text: "Default config location:"
+                - code [ref=f2e686]: ~/.config/larpfetch/config.toml
+              - generic [ref=f2e687]:
+                - generic [ref=f2e688]:
+                  - text: "[default] os ="
+                  - generic [ref=f2e689]: "\"Arch Linux\""
+                  - text: distro =
+                  - generic [ref=f2e690]: "\"Arch Linux\""
+                  - text: hostname =
+                  - generic [ref=f2e691]: "\"btw-i-use-arch\""
+                  - text: kernel =
+                  - generic [ref=f2e692]: "\"6.99.0-larp\""
+                  - text: cpu =
+                  - generic [ref=f2e693]: "\"AMD Ryzen 9 9950X3D\""
+                  - text: gpu =
+                  - generic [ref=f2e694]: "\"NVIDIA RTX 5090\""
+                  - text: memory =
+                  - generic [ref=f2e695]: "\"128 GiB\""
+                  - text: shell =
+                  - generic [ref=f2e696]: "\"zsh\""
+                  - text: "[profiles.custom] os ="
+                  - generic [ref=f2e697]: "\"My Custom OS\""
+                  - text: cpu =
+                  - generic [ref=f2e698]: "\"Custom CPU\""
+                  - text: logo =
+                  - generic [ref=f2e699]: "\"arch\""
+                  - generic [ref=f2e700]: "# Reference a built-in logo by name"
+                  - text: "[profiles.art] os ="
+                  - generic [ref=f2e701]: "\"Artistic OS\""
+                  - text: logo =
+                  - generic [ref=f2e702]: "\"\"\"\\"
+                  - generic [ref=f2e703]: /\\
+                  - generic [ref=f2e704]: / \\
+                  - generic [ref=f2e705]: / \\
+                  - generic [ref=f2e706]: / \\
+                  - generic [ref=f2e707]: /________\\
+                  - generic [ref=f2e708]: "\"\"\""
+                  - generic [ref=f2e709]: "# Or inline custom ASCII art"
+                  - text: "[appearance] color = true show_authenticity = true easter_eggs = true small = true"
+                  - generic [ref=f2e710]: "# Always use small ASCII art"
+                  - text: "[display] fields = ["
+                  - generic [ref=f2e711]: "\"os\""
+                  - text: ","
+                  - generic [ref=f2e712]: "\"kernel\""
+                  - text: ","
+                  - generic [ref=f2e713]: "\"cpu\""
+                  - text: ","
+                  - generic [ref=f2e714]: "\"memory\""
+                  - text: "] separator ="
+                  - generic [ref=f2e715]: "\" -> \""
+                  - text: hide_unavailable = true [display.labels] memory =
+                  - generic [ref=f2e716]: "\"RAM\""
+                - button "Copy code to clipboard" [ref=f2e718] [cursor=pointer]
+              - generic [ref=f2e722]:
+                - heading "Platform-specific config locations" [level=3] [ref=f2e723]
+                - 'link "Permalink: Platform-specific config locations" [ref=f2e724] [cursor=pointer]':
+                  - /url: "#platform-specific-config-locations"
+              - list [ref=f2e727]:
+                - listitem [ref=f2e728]:
+                  - strong [ref=f2e729]: Linux
+                  - text: ":"
+                  - code [ref=f2e730]: $XDG_CONFIG_HOME/larpfetch/config.toml
+                  - text: or
+                  - code [ref=f2e731]: ~/.config/larpfetch/config.toml
+                - listitem [ref=f2e732]:
+                  - strong [ref=f2e733]: macOS
+                  - text: ":"
+                  - code [ref=f2e734]: ~/Library/Application Support/larpfetch/config.toml
+                - listitem [ref=f2e735]:
+                  - strong [ref=f2e736]: Windows
+                  - text: ":"
+                  - code [ref=f2e737]: "%APPDATA%\\larpfetch\\config.toml"
+              - paragraph [ref=f2e738]:
+                - text: For the full config reference (all fields, appearance options, profiles, inline logos), see
+                - link "docs/CONFIG.md" [ref=f2e739] [cursor=pointer]:
+                  - /url: /vaproh/larpfetch/blob/main/docs/CONFIG.md
+                - text: . For a complete command reference, see
+                - link "docs/USAGE.md" [ref=f2e740] [cursor=pointer]:
+                  - /url: /vaproh/larpfetch/blob/main/docs/USAGE.md
+                - text: .
+              - generic [ref=f2e741]:
+                - heading "Precedence" [level=2] [ref=f2e742]
+                - 'link "Permalink: Precedence" [ref=f2e743] [cursor=pointer]':
+                  - /url: "#precedence"
+              - paragraph [ref=f2e746]: "Normal mode:"
+              - generic [ref=f2e747]:
+                - code [ref=f2e749]: CLI overrides > selected profile > default profile > real detected values
+                - button "Copy code to clipboard" [ref=f2e751] [cursor=pointer]
+              - paragraph [ref=f2e755]:
+                - text: Reality mode (
+                - code [ref=f2e756]: "--real-shit"
+                - text: "):"
+              - generic [ref=f2e757]:
+                - code [ref=f2e759]: Real values only — bypasses everything
+                - button "Copy code to clipboard" [ref=f2e761] [cursor=pointer]
+              - generic [ref=f2e765]:
+                - heading "Logos" [level=2] [ref=f2e766]
+                - 'link "Permalink: Logos" [ref=f2e767] [cursor=pointer]':
+                  - /url: "#logos"
+              - paragraph [ref=f2e770]:
+                - text: 533 ASCII logos adapted from
+                - link "fastfetch" [ref=f2e771] [cursor=pointer]:
+                  - /url: https://github.com/fastfetch-cli/fastfetch
+                - text: (MIT licensed), with full ANSI color support. Colors are applied automatically and respect
+                - code [ref=f2e772]: NO_COLOR
+                - text: .
+              - paragraph [ref=f2e773]:
+                - text: Logo selection is based on your displayed identity (or real identity in
+                - code [ref=f2e774]: "--real-shit"
+                - text: mode). Profiles can override the logo by name or provide custom ASCII art.
+              - generic [ref=f2e775]:
+                - heading "Easter Eggs" [level=2] [ref=f2e776]
+                - 'link "Permalink: Easter Eggs" [ref=f2e777] [cursor=pointer]':
+                  - /url: "#easter-eggs"
+              - paragraph [ref=f2e780]: "The output may include occasional humorous lines:"
+              - list [ref=f2e781]:
+                - listitem [ref=f2e782]:
+                  - code [ref=f2e783]: "Authenticity: N%"
+                  - text: — how much of your output is real
+                - listitem [ref=f2e784]:
+                  - code [ref=f2e785]: "Source: trust me bro"
+                  - text: — triggered by implausible memory values
+                - listitem [ref=f2e786]:
+                  - code [ref=f2e787]: "Reality Leakage: 100.00%"
+                  - text: — absurdly high package counts
+                - listitem [ref=f2e788]:
+                  - code [ref=f2e789]: "Disappointment: immeasurable"
+                  - text: — shown in
+                  - code [ref=f2e790]: "--real-shit"
+                  - text: mode
+                - listitem [ref=f2e791]:
+                  - code [ref=f2e792]: The allegations were true.
+                  - text: — deterministic, based on username hash
+              - paragraph [ref=f2e793]:
+                - text: Easter eggs are deterministic, disableable via
+                - code [ref=f2e794]: "[appearance] easter_eggs = false"
+                - text: or
+                - code [ref=f2e795]: LARPFETCH_NO_EASTER_EGGS=1
+                - text: ", and not offensive."
+              - generic [ref=f2e796]:
+                - heading "Not just a meme" [level=2] [ref=f2e797]
+                - 'link "Permalink: Not just a meme" [ref=f2e798] [cursor=pointer]':
+                  - /url: "#not-just-a-meme"
+              - paragraph [ref=f2e801]: "larpfetch is funny on purpose, but it's a real daily-driver fetch tool underneath:"
+              - list [ref=f2e802]:
+                - listitem [ref=f2e803]:
+                  - text: Detects your actual system with
+                  - code [ref=f2e804]: psutil
+                  - text: and platform-specific probes
+                - listitem [ref=f2e805]:
+                  - text: Clean, aligned, color-aware output that respects
+                  - code [ref=f2e806]: NO_COLOR
+                  - text: and narrow terminals
+                - listitem [ref=f2e807]:
+                  - text: "Scriptable:"
+                  - code [ref=f2e808]: "--json"
+                  - text: ","
+                  - code [ref=f2e809]: "--minimal"
+                  - text: ","
+                  - code [ref=f2e810]: "--compact"
+                  - text: ","
+                  - code [ref=f2e811]: "--full"
+                  - text: ", and automatic pipe mode"
+                - listitem [ref=f2e812]:
+                  - text: "Fully customizable: declarative"
+                  - code [ref=f2e813]: "[display]"
+                  - text: config, named profiles, and CLI overrides
+                - listitem [ref=f2e814]: Cross-platform (Linux, macOS, Windows) with graceful degradation
+              - generic [ref=f2e815]:
+                - heading "Reality vs delusion" [level=3] [ref=f2e816]
+                - 'link "Permalink: Reality vs delusion" [ref=f2e817] [cursor=pointer]':
+                  - /url: "#reality-vs-delusion"
+              - paragraph [ref=f2e820]:
+                - text: By default larpfetch shows your LARP identity.
+                - code [ref=f2e821]: "--real-shit"
+                - text: "shows only detected truth. The contrast is the whole point:"
+              - table [ref=f2e823]:
+                - rowgroup [ref=f2e824]:
+                  - row [ref=f2e825]:
+                    - columnheader "Field" [ref=f2e826]
+                    - columnheader [ref=f2e827]:
+                      - text: Real (
+                      - code [ref=f2e828]: "--real-shit"
+                      - text: )
+                    - columnheader [ref=f2e829]:
+                      - text: Delusion (
+                      - code [ref=f2e830]: "-p nasa"
+                      - text: )
+                - rowgroup [ref=f2e831]:
+                  - row [ref=f2e832]:
+                    - cell "OS" [ref=f2e833]
+                    - cell "Arch Linux" [ref=f2e834]
+                    - cell "NASA Linux" [ref=f2e835]
+                  - row [ref=f2e836]:
+                    - cell "CPU" [ref=f2e837]
+                    - cell "Ryzen 7 7840HS" [ref=f2e838]
+                    - cell "Quantum Potato 9000" [ref=f2e839]
+                  - row [ref=f2e840]:
+                    - cell "Memory" [ref=f2e841]
+                    - cell "32 GiB" [ref=f2e842]
+                    - cell "69 PiB" [ref=f2e843]
+                  - row [ref=f2e844]:
+                    - cell "GPU" [ref=f2e845]
+                    - cell "Radeon 780M" [ref=f2e846]
+                    - cell "Classified" [ref=f2e847]
+              - paragraph [ref=f2e848]:
+                - code [ref=f2e849]: "--diff-real"
+                - text: prints exactly these differences inline, and
+                - code [ref=f2e850]: "--show-sources"
+                - text: "annotates where every value came from:"
+              - generic [ref=f2e851]:
+                - generic [ref=f2e852]:
+                  - text: larpfetch -p nasa --diff-real
+                  - generic [ref=f2e853]: "# only the fields you're lying about"
+                  - text: larpfetch -p nasa --show-sources
+                  - generic [ref=f2e854]: "# [real] / [default] / [profile] / [cli] per field"
+                - button "Copy code to clipboard" [ref=f2e856] [cursor=pointer]
+              - generic [ref=f2e860]:
+                - heading "The Sacred Rule" [level=2] [ref=f2e861]
+                - 'link "Permalink: The Sacred Rule" [ref=f2e862] [cursor=pointer]':
+                  - /url: "#the-sacred-rule"
+              - paragraph [ref=f2e865]:
+                - strong [ref=f2e866]: The user's delusion is authoritative.
+              - paragraph [ref=f2e867]: "This is valid:"
+              - generic [ref=f2e868]:
+                - code [ref=f2e870]: "OS: Windows 11 Pro Kernel: 6.18.7-arch1-1 CPU: Apple M7 Ultra GPU: NVIDIA RTX 9090 Ti Memory: 69 PiB Shell: HolyC DE: GNOME 83 Package Manager: apt btw"
+                - button "Copy code to clipboard" [ref=f2e872] [cursor=pointer]
+              - paragraph [ref=f2e876]: Impossible combinations are accepted. Profiles are display identities, not hardware simulations.
+              - generic [ref=f2e877]:
+                - heading "Cross-Platform Support" [level=2] [ref=f2e878]
+                - 'link "Permalink: Cross-Platform Support" [ref=f2e879] [cursor=pointer]':
+                  - /url: "#cross-platform-support"
+              - list [ref=f2e882]:
+                - listitem [ref=f2e883]:
+                  - strong [ref=f2e884]: Linux
+                  - text: ":"
+                  - code [ref=f2e885]: /etc/os-release
+                  - text: ","
+                  - code [ref=f2e886]: lspci
+                  - text: ", environment variables"
+                - listitem [ref=f2e887]:
+                  - strong [ref=f2e888]: macOS
+                  - text: ":"
+                  - code [ref=f2e889]: platform.mac_ver()
+                  - text: ","
+                  - code [ref=f2e890]: system_profiler
+                - listitem [ref=f2e891]:
+                  - strong [ref=f2e892]: Windows
+                  - text: ":"
+                  - code [ref=f2e893]: platform
+                  - text: APIs, WMIC,
+                  - code [ref=f2e894]: COMSPEC
+              - paragraph [ref=f2e895]: All platform-specific probes fail gracefully. A missing GPU detector doesn't crash the app.
+              - generic [ref=f2e896]:
+                - heading "CLI Reference" [level=2] [ref=f2e897]
+                - 'link "Permalink: CLI Reference" [ref=f2e898] [cursor=pointer]':
+                  - /url: "#cli-reference"
+              - generic [ref=f2e901]:
+                - code [ref=f2e903]: "larpfetch # Default mode larpfetch -p NAME # Select profile larpfetch --profile NAME # Select profile (long form) larpfetch --distro NAME # LARP as a specific distro larpfetch --logo NAME # Pick a specific logo by name larpfetch --small # Use small ASCII art larpfetch --cols N # Force column width for logo larpfetch --list-logos # List all available logos larpfetch --list-logos --search ubuntu # Search logos larpfetch --real-shit # Real system info only larpfetch --json # Output as JSON larpfetch --json --with-sources # JSON with per-field provenance larpfetch --diff-real # Show only fields that differ from real larpfetch --show-sources # Show where each value came from larpfetch --shell-info # Show shell version larpfetch --gpu-info # Show GPU driver details larpfetch --disk-info # Show per-disk breakdown ($HOME disk by default) larpfetch --disk-info /data # Show only the /data disk larpfetch --disk-info all # Include virtual mounts larpfetch --minimal # Short field preset larpfetch --compact # Standard fields, no logo larpfetch --full # All available fields larpfetch --export-profile [NAME] # Export real system as a shareable profile larpfetch --profile-file PATH # Load a standalone profile file larpfetch --inspect-profile NAME|PATH # Inspect a profile or profile file larpfetch --list-profiles # List all profiles larpfetch --show-config # Show current config larpfetch --generate-config # Print a starter config larpfetch --check-config # Validate the config file larpfetch --config /path/to/config.toml # Custom config path larpfetch --set key=value # Override a field (repeatable) larpfetch --color # Force color output larpfetch --no-color # Disable color output larpfetch --version # Show version larpfetch --help # Show help"
+                - button "Copy code to clipboard" [ref=f2e905] [cursor=pointer]
+              - generic [ref=f2e909]:
+                - heading "Sharing profiles" [level=2] [ref=f2e910]
+                - 'link "Permalink: Sharing profiles" [ref=f2e911] [cursor=pointer]':
+                  - /url: "#sharing-profiles"
+              - paragraph [ref=f2e914]: Export your real system as a standalone profile, then share the file. Profiles are data-only TOML — loading one never executes code.
+              - generic [ref=f2e915]:
+                - generic [ref=f2e916]:
+                  - text: larpfetch --export-profile myrig > myrig.toml
+                  - generic [ref=f2e917]: "# capture your real system"
+                  - text: larpfetch --profile-file myrig.toml
+                  - generic [ref=f2e918]: "# someone else LARPs as your rig"
+                  - text: larpfetch --inspect-profile myrig.toml
+                  - generic [ref=f2e919]: "# see what a profile contains"
+                - button "Copy code to clipboard" [ref=f2e921] [cursor=pointer]
+              - generic [ref=f2e925]:
+                - heading "Resources" [level=2] [ref=f2e926]
+                - 'link "Permalink: Resources" [ref=f2e927] [cursor=pointer]':
+                  - /url: "#resources"
+              - list [ref=f2e930]:
+                - listitem [ref=f2e931]:
+                  - link "Usage docs" [ref=f2e932] [cursor=pointer]:
+                    - /url: /vaproh/larpfetch/blob/main/docs/USAGE.md
+                  - text: — full command reference with examples
+                - listitem [ref=f2e933]:
+                  - link "Configuration docs" [ref=f2e934] [cursor=pointer]:
+                    - /url: /vaproh/larpfetch/blob/main/docs/CONFIG.md
+                  - text: — full config reference
+                - listitem [ref=f2e935]:
+                  - link "Architecture" [ref=f2e936] [cursor=pointer]:
+                    - /url: /vaproh/larpfetch/blob/main/docs/architecture.md
+                  - text: — module map and data flow
+                - listitem [ref=f2e937]:
+                  - link "Changelog" [ref=f2e938] [cursor=pointer]:
+                    - /url: /vaproh/larpfetch/blob/main/CHANGELOG.md
+                  - text: — version history
+                - listitem [ref=f2e939]:
+                  - link "Roadmap" [ref=f2e940] [cursor=pointer]:
+                    - /url: /vaproh/larpfetch/blob/main/ROADMAP.md
+                  - text: — planned features
+              - generic [ref=f2e941]:
+                - heading "Development" [level=2] [ref=f2e942]
+                - 'link "Permalink: Development" [ref=f2e943] [cursor=pointer]':
+                  - /url: "#development"
+              - generic [ref=f2e946]:
+                - generic [ref=f2e947]: git clone https://github.com/vaproh/larpfetch.git cd larpfetch uv sync just test just lint
+                - button "Copy code to clipboard" [ref=f2e949] [cursor=pointer]
+              - paragraph [ref=f2e953]: "Or with just:"
+              - generic [ref=f2e954]:
+                - generic [ref=f2e955]:
+                  - text: just dev
+                  - generic [ref=f2e956]: "# install in dev mode"
+                  - text: just test
+                  - generic [ref=f2e957]: "# run tests"
+                  - text: just lint
+                  - generic [ref=f2e958]: "# ruff check"
+                  - text: just fmt
+                  - generic [ref=f2e959]: "# ruff format"
+                  - text: just check
+                  - generic [ref=f2e960]: "# lint + test"
+                  - text: just all
+                  - generic [ref=f2e961]: "# format + lint + test"
+                - button "Copy code to clipboard" [ref=f2e963] [cursor=pointer]
+              - paragraph [ref=f2e967]:
+                - text: "361 tests covering: config loading, display layout, profile resolution, provenance tracking,"
+                - code [ref=f2e968]: "--real-shit"
+                - text: invariant, CLI parsing, logo selection, ANSI alignment, easter egg determinism, collector degradation, and more.
+              - blockquote [ref=f2e969]:
+                - paragraph [ref=f2e970]:
+                  - strong [ref=f2e971]: "Maintenance:"
+                  - text: This project is 100% made by autonomous coding agents — developed, tested, and released without any human coding. The authoritative operating manual for that process lives in
+                  - link "AGENTS.md" [ref=f2e972] [cursor=pointer]:
+                    - /url: /vaproh/larpfetch/blob/main/AGENTS.md
+                  - text: .
+              - generic [ref=f2e973]:
+                - heading "Roadmap" [level=2] [ref=f2e974]
+                - 'link "Permalink: Roadmap" [ref=f2e975] [cursor=pointer]':
+                  - /url: "#roadmap"
+              - table [ref=f2e979]:
+                - rowgroup [ref=f2e980]:
+                  - row [ref=f2e981]:
+                    - columnheader "Release" [ref=f2e982]
+                    - columnheader "Theme" [ref=f2e983]
+                - rowgroup [ref=f2e984]:
+                  - row [ref=f2e985]:
+                    - cell [ref=f2e986]:
+                      - strong [ref=f2e987]: v1.1
+                    - cell [ref=f2e988]:
+                      - code [ref=f2e989]: "--logo"
+                      - text: ","
+                      - code [ref=f2e990]: "--list-logos"
+                      - text: ","
+                      - code [ref=f2e991]: "--cols"
+                      - text: ","
+                      - code [ref=f2e992]: "--distro"
+                      - text: ","
+                      - code [ref=f2e993]: "--small"
+                      - text: ✨
+                  - row [ref=f2e994]:
+                    - cell [ref=f2e995]:
+                      - strong [ref=f2e996]: v1.2
+                    - cell "JSON output, package count, shell/GPU/disk details ✨" [ref=f2e997]
+                  - row [ref=f2e998]:
+                    - cell [ref=f2e999]:
+                      - strong [ref=f2e1000]: v1.3
+                    - cell "Daily-driver customization — declarative display, density presets, terminal responsiveness ✨" [ref=f2e1001]
+                  - row [ref=f2e1002]:
+                    - cell [ref=f2e1003]:
+                      - strong [ref=f2e1004]: v1.4
+                    - cell [ref=f2e1005]:
+                      - text: Reality vs delusion —
+                      - code [ref=f2e1006]: "--diff-real"
+                      - text: ","
+                      - code [ref=f2e1007]: "--show-sources"
+                      - text: ", shareable profiles ✨"
+                  - row [ref=f2e1008]:
+                    - cell [ref=f2e1009]:
+                      - strong [ref=f2e1010]: v1.5
+                    - cell [ref=f2e1011]:
+                      - text: "Daily-driver system info — battery state, resolution, terminal/WM/compositor, device & motherboard, multi-GPU, multi-disk ✅ (v1.5.1:"
+                      - code [ref=f2e1012]: "--disk-info"
+                      - text: defaults to
+                      - code [ref=f2e1013]: $HOME
+                      - text: disk, takes a PATH, configurable)
+                  - row [ref=f2e1014]:
+                    - cell [ref=f2e1015]:
+                      - strong [ref=f2e1016]: v1.6
+                    - cell "Themes and visual polish — catppuccin, dracula, nord, gruvbox" [ref=f2e1017]
+                  - row [ref=f2e1018]:
+                    - cell [ref=f2e1019]:
+                      - strong [ref=f2e1020]: v1.7
+                    - cell [ref=f2e1021]:
+                      - text: Diagnostics —
+                      - code [ref=f2e1022]: "--explain"
+                      - text: ","
+                      - code [ref=f2e1023]: "--diagnose"
+                      - text: ","
+                      - code [ref=f2e1024]: "--timings"
+                      - text: ", shell completions"
+                  - row [ref=f2e1025]:
+                    - cell [ref=f2e1026]:
+                      - strong [ref=f2e1027]: v2.0
+                    - cell "Stability — stable JSON/config schemas, cross-platform CI, performance targets" [ref=f2e1028]
+              - paragraph [ref=f2e1029]:
+                - text: See
+                - link "ROADMAP.md" [ref=f2e1030] [cursor=pointer]:
+                  - /url: /vaproh/larpfetch/blob/main/ROADMAP.md
+                - text: for the full detailed roadmap.
+              - generic [ref=f2e1031]:
+                - heading "💰 Support" [level=2] [ref=f2e1032]
+                - 'link "Permalink: 💰 Support" [ref=f2e1033] [cursor=pointer]':
+                  - /url: "#-support"
+              - paragraph [ref=f2e1036]: "If you found my work helpful, feel free to support:"
+              - generic [ref=f2e1037]:
+                - heading "One-time" [level=3] [ref=f2e1038]
+                - 'link "Permalink: One-time" [ref=f2e1039] [cursor=pointer]':
+                  - /url: "#one-time"
+              - paragraph [ref=f2e1042]:
+                - link [ref=f2e1043] [cursor=pointer]:
+                  - /url: https://ko-fi.com/vaproh
+                  - img "Ko-fi" [ref=f2e1044]
+                - link [ref=f2e1045] [cursor=pointer]:
+                  - /url: https://paypal.me/vaproh
+                  - img "PayPal" [ref=f2e1046]
+              - generic [ref=f2e1047]:
+                - heading "Crypto" [level=3] [ref=f2e1048]
+                - 'link "Permalink: Crypto" [ref=f2e1049] [cursor=pointer]':
+                  - /url: "#crypto"
+              - paragraph [ref=f2e1052]:
+                - strong [ref=f2e1053]: Ethereum (ERC-20)
+                - code [ref=f2e1054]: "0xD78C15C6932356e57c75a050a602474372804714"
+              - paragraph [ref=f2e1055]:
+                - strong [ref=f2e1056]: BNB Smart Chain (BEP-20)
+                - code [ref=f2e1057]: "0xD78C15C6932356e57c75a050a602474372804714"
+              - paragraph [ref=f2e1058]:
+                - strong [ref=f2e1059]: Solana
+                - code [ref=f2e1060]: CvAZzE6jTwxQq1npGzeoTBByj7Ap4REmuukf3BeiuyHi
+              - paragraph [ref=f2e1061]:
+                - strong [ref=f2e1062]: Bitcoin (BTC)
+                - code [ref=f2e1063]: bc1q7tct80xelr57zdmvcux495dec8l4m2t8eqdzn4
+              - paragraph [ref=f2e1064]:
+                - strong [ref=f2e1065]: Tron (TRC-20)
+                - code [ref=f2e1066]: TKvaQHMqvzeX2UAz6Cz2WRckRh28Hjd2Xy
+              - paragraph [ref=f2e1067]:
+                - strong [ref=f2e1068]: Litecoin (LTC)
+                - code [ref=f2e1069]: LXYZJ754RdVXzLkoKVA91wTYjYfRyxQ9pA
+              - paragraph [ref=f2e1070]:
+                - strong [ref=f2e1071]: Zcash
+                - code [ref=f2e1072]: t1bFWcooKThyQjQzrJACXXCYbNZLS7QUzmF
+              - generic [ref=f2e1073]:
+                - heading "License" [level=2] [ref=f2e1074]
+                - 'link "Permalink: License" [ref=f2e1075] [cursor=pointer]':
+                  - /url: "#license"
+              - paragraph [ref=f2e1078]:
+                - text: MIT — see
+                - link "LICENSE" [ref=f2e1079] [cursor=pointer]:
+                  - /url: /vaproh/larpfetch/blob/main/LICENSE
+      - generic [ref=f2e1082]:
+        - generic [ref=f2e1083]:
+          - heading "About" [level=2] [ref=f2e1084]
+          - paragraph [ref=f2e1085]: LARP as any distro, hardware, or machine you want. Because reality is optional until you pass --real-shit.
+          - heading "Topics" [level=3] [ref=f2e1086]
+          - generic [ref=f2e1087]:
+            - link "ascii-art" [ref=f2e1088] [cursor=pointer]:
+              - /url: /topics/ascii-art
+            - link "cli" [ref=f2e1089] [cursor=pointer]:
+              - /url: /topics/cli
+            - link "fastfetch" [ref=f2e1090] [cursor=pointer]:
+              - /url: /topics/fastfetch
+            - link "fetch" [ref=f2e1091] [cursor=pointer]:
+              - /url: /topics/fetch
+            - link "larp" [ref=f2e1092] [cursor=pointer]:
+              - /url: /topics/larp
+            - link "linux" [ref=f2e1093] [cursor=pointer]:
+              - /url: /topics/linux
+            - link "macos" [ref=f2e1094] [cursor=pointer]:
+              - /url: /topics/macos
+            - link "neofetch" [ref=f2e1095] [cursor=pointer]:
+              - /url: /topics/neofetch
+            - link "python" [ref=f2e1096] [cursor=pointer]:
+              - /url: /topics/python
+            - link "windows" [ref=f2e1097] [cursor=pointer]:
+              - /url: /topics/windows
+          - heading "Resources" [level=3] [ref=f2e1098]
+          - link "Readme" [ref=f2e1100] [cursor=pointer]:
+            - /url: "#readme-ov-file"
+          - link "MIT license" [ref=f2e1104] [cursor=pointer]:
+            - /url: "#MIT-1-ov-file"
+          - link "Activity" [ref=f2e1108] [cursor=pointer]:
+            - /url: /vaproh/larpfetch/activity
+          - heading "Stars" [level=3] [ref=f2e1111]
+          - generic [ref=f2e1113]:
+            - strong [ref=f2e1116]: "7"
+            - text: stars
+          - heading "Watchers" [level=3] [ref=f2e1117]
+          - generic [ref=f2e1119]:
+            - strong [ref=f2e1122]: "0"
+            - text: watching
+          - heading "Forks" [level=3] [ref=f2e1123]
+          - link [ref=f2e1125] [cursor=pointer]:
+            - /url: /vaproh/larpfetch/forks
+            - strong [ref=f2e1129]: "0"
+            - text: forks
+          - link "Report repository" [ref=f2e1131] [cursor=pointer]:
+            - /url: /contact/report-content?content_url=https%3A%2F%2Fgithub.com%2Fvaproh%2Flarpfetch&report=vaproh+%28user%29
+        - heading "Releases" [level=2] [ref=f2e1133]
+        - heading "Packages" [level=2] [ref=f2e1137]
+        - heading "Contributors" [level=2] [ref=f2e1140]
+        - heading "Languages" [level=2] [ref=f2e1143]
+  - contentinfo [ref=f2e1146]:
+    - heading "Footer" [level=2] [ref=f2e1147]
+    - generic [ref=f2e1148]:
+      - generic [ref=f2e1149]:
+        - link "GitHub Homepage" [ref=f2e1150] [cursor=pointer]:
+          - /url: https://github.com
+        - generic [ref=f2e1153]: © 2026 GitHub, Inc.
+      - navigation "Footer" [ref=f2e1154]:
+        - heading "Footer navigation" [level=3] [ref=f2e1155]
+        - list "Footer navigation" [ref=f2e1156]:
+          - listitem [ref=f2e1157]:
+            - link "Terms" [ref=f2e1158] [cursor=pointer]:
+              - /url: https://docs.github.com/site-policy/github-terms/github-terms-of-service
+          - listitem [ref=f2e1159]:
+            - link "Privacy" [ref=f2e1160] [cursor=pointer]:
+              - /url: https://docs.github.com/site-policy/privacy-policies/github-privacy-statement
+          - listitem [ref=f2e1161]:
+            - link "Security" [ref=f2e1162] [cursor=pointer]:
+              - /url: https://github.com/security
+          - listitem [ref=f2e1163]:
+            - link "Status" [ref=f2e1164] [cursor=pointer]:
+              - /url: https://www.githubstatus.com/
+          - listitem [ref=f2e1165]:
+            - link "Community" [ref=f2e1166] [cursor=pointer]:
+              - /url: https://github.community/
+          - listitem [ref=f2e1167]:
+            - link "Docs" [ref=f2e1168] [cursor=pointer]:
+              - /url: https://docs.github.com/
+          - listitem [ref=f2e1169]:
+            - link "Contact" [ref=f2e1170] [cursor=pointer]:
+              - /url: https://support.github.com?tags=dotcom-footer
+          - listitem [ref=f2e1171]:
+            - button "Manage cookies" [ref=f2e1173] [cursor=pointer]
+          - listitem [ref=f2e1174]:
+            - button "Do not share my personal information" [ref=f2e1176] [cursor=pointer]

@@ -1,0 +1,95 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "vaproh" [ref=e4] [cursor=pointer]:
+        - /url: /
+      - navigation "main navigation" [ref=e5]:
+        - link "home" [ref=e6] [cursor=pointer]:
+          - /url: /
+        - link "archive" [ref=e7] [cursor=pointer]:
+          - /url: /archive/
+        - link "projects" [ref=e8] [cursor=pointer]:
+          - /url: /projects/
+        - link "photos" [ref=e9] [cursor=pointer]:
+          - /url: /photos/
+        - link "uses" [ref=e10] [cursor=pointer]:
+          - /url: /uses/
+        - link "about" [ref=e11] [cursor=pointer]:
+          - /url: /about/
+        - link "socials" [ref=e12] [cursor=pointer]:
+          - /url: /socials/
+      - button "toggle theme" [ref=e13] [cursor=pointer]
+  - main [ref=e20]:
+    - generic [ref=e21]:
+      - heading "projects" [level=1] [ref=e22]
+      - paragraph [ref=e23]: things i've built.
+    - generic [ref=e24]:
+      - link "clipin clipin india's performance clipping marketplace. built with nuxt 3 + go. web go vue" [ref=e25] [cursor=pointer]:
+        - /url: https://github.com/vaproh/clipin
+        - img "clipin" [ref=e28]
+        - generic [ref=e29]:
+          - generic [ref=e30]: clipin
+          - generic [ref=e31]: india's performance clipping marketplace. built with nuxt 3 + go.
+          - generic [ref=e32]:
+            - generic [ref=e33]: web
+            - generic [ref=e34]: go
+            - generic [ref=e35]: vue
+      - link "dontforget dontforget your edentic memory. python" [ref=e36] [cursor=pointer]:
+        - /url: https://github.com/vaproh/dontforget
+        - img "dontforget" [ref=e39]
+        - generic [ref=e40]:
+          - generic [ref=e41]: dontforget
+          - generic [ref=e42]: your edentic memory.
+          - generic [ref=e43]: python
+      - link "awesome-coding-plans awesome-coding-plans a curated comparison of ai coding subscriptions and token plans. 20+ plans compared. web astro" [ref=e45] [cursor=pointer]:
+        - /url: https://awesome-coding-plans.netlify.app/
+        - img "awesome-coding-plans" [ref=e48]
+        - generic [ref=e49]:
+          - generic [ref=e50]: awesome-coding-plans
+          - generic [ref=e51]: a curated comparison of ai coding subscriptions and token plans. 20+ plans compared.
+          - generic [ref=e52]:
+            - generic [ref=e53]: web
+            - generic [ref=e54]: astro
+      - link "larpfetch larpfetch larp as any distro, hardware, or machine you want. reality is optional until you pass --real-shit. python cli" [ref=e55] [cursor=pointer]:
+        - /url: https://github.com/vaproh/larpfetch
+        - img "larpfetch" [ref=e58]
+        - generic [ref=e59]:
+          - generic [ref=e60]: larpfetch
+          - generic [ref=e61]: larp as any distro, hardware, or machine you want. reality is optional until you pass --real-shit.
+          - generic [ref=e62]:
+            - generic [ref=e63]: python
+            - generic [ref=e64]: cli
+      - link "ReOrchestra reorchestra bulk reddit account automation with task-based queuing, automatic rate limiting, and stealth browser integration. python automation" [ref=e65] [cursor=pointer]:
+        - /url: https://github.com/vaproh/ReOrchestra
+        - img "ReOrchestra" [ref=e68]
+        - generic [ref=e69]:
+          - generic [ref=e70]: reorchestra
+          - generic [ref=e71]: bulk reddit account automation with task-based queuing, automatic rate limiting, and stealth browser integration.
+          - generic [ref=e72]:
+            - generic [ref=e73]: python
+            - generic [ref=e74]: automation
+      - link "ig-pulse ig-pulse telegram bot that tracks instagram account status, detects bans and restorations instantly. python bot" [ref=e75] [cursor=pointer]:
+        - /url: https://github.com/vaproh/ig-pulse
+        - img "ig-pulse" [ref=e78]
+        - generic [ref=e79]:
+          - generic [ref=e80]: ig-pulse
+          - generic [ref=e81]: telegram bot that tracks instagram account status, detects bans and restorations instantly.
+          - generic [ref=e82]:
+            - generic [ref=e83]: python
+            - generic [ref=e84]: bot
+    - text: “ “ “ “ “ “ “ “ “
+  - contentinfo [ref=e85]:
+    - generic [ref=e86]:
+      - generic [ref=e87]:
+        - generic [ref=e88]: vaproh
+        - generic [ref=e89]: ·
+        - generic [ref=e90]: © 2026
+        - generic [ref=e91]: ·
+        - generic [ref=e92]: "local time: 06:41 PM"
+      - generic [ref=e93]:
+        - link "github" [ref=e94] [cursor=pointer]:
+          - /url: https://github.com/vaproh
+        - link "rss" [ref=e95] [cursor=pointer]:
+          - /url: /feed.xml
+        - link "email" [ref=e96] [cursor=pointer]:
+          - /url: mailto:utkarsh@vaproh.space

@@ -4,21 +4,34 @@ description: "a running list of the hardware, software, and tools i use daily."
 layout: "standalone"
 ---
 
-i get asked about my setup somewhat often. here is the master list of everything i actually use to get work done.
+what i use day to day. my [dotfiles](https://github.com/vaproh/dotfiles) are on github (chezmoi managed).
 
-### Hardware
-* **Machine:** M3 MacBook Pro 14" (Silver) — it's fast, the battery lasts forever, and i don't have to think about it.
-* **Monitor:** Studio Display — controversial, but the text clarity is unmatched.
-* **Keyboard:** HHKB Professional Hybrid Type-S — the layout took a week to learn and now i can't use anything else.
-* **Mouse:** Logitech MX Master 3S — heavy, but ergonomic.
+### PC
+* **CPU:** Xeon E3-1240 v2
+* **GPU:** GTX 1050 Ti
+* **RAM:** 16GB DDR3
+* **Storage:** 250GB ADATA 710 Legend NVMe + 128GB generic SATA SSD
+* **Monitor:** LG 24MMP60G, 1080p 75Hz IPS (my best purchase)
+* **Keyboard:** Ant Esports MK1300v2, with an Onikuma G52 as backup
+* **Mouse:** Razer Viper Mini, another great purchase, using it since 2021
+
+### Mobile
+* **Phone:** iQOO Z5 (8GB, Snapdragon 778G), been using it for 4-5 years and it still works great
+* **Launcher:** Olauncher
+* **Automation:** MacroDroid
 
 ### Development
-* **Editor:** VS Code with the Vitesse Dark theme.
-* **Terminal:** Ghostty — insanely fast, looks beautiful out of the box.
-* **Shell:** Zsh with Oh My Zsh and Starship prompt.
-* **Font:** JetBrains Mono for code, Inter for UI.
+* **OS:** Niri + Noctalia. before this i was on Hyprland + Waybar + Wofi + SwayNC
+* **Editor:** Neovim, AstroNvim v6 with some plugins tailored for me
+* **Terminal:** Kitty
+* **Multiplexer:** tmux
+* **Shell:** zsh with Oh My Zsh
+* **Fonts:** [Ioskeley Mono](https://github.com/ahatem/IoskeleyMono) for code, Inter for UI
+* **Theme:** Flexoki everywhere
 
 ### Apps
-* **Browser:** Arc — the spaces feature actually changed how i work.
-* **Notes:** Obsidian — all my writing, devlogs, and plans live here in plaintext.
-* **Music:** Spotify + a massive collection of local FLAC files played through Swinsian.
+* **Browser:** Zen browser, plus Brave Origin for when something only works on chromium
+* **Notes:** markdown files, Obsidian for viewing
+* **Music:** sometimes Apple Music (Cider on desktop), sometimes Spotify, sometimes local files with mpd + rmpc
+* **Media:** mpv + VLC
+* **Files:** yazi, plus Dolphin for the GUI stuff

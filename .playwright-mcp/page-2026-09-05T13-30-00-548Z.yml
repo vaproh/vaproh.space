@@ -1,0 +1,284 @@
+- generic [ref=f18e1]:
+  - banner [ref=f18e2]:
+    - generic [ref=f18e3]:
+      - link "vaproh" [ref=f18e4] [cursor=pointer]:
+        - /url: /
+      - navigation "main navigation" [ref=f18e5]:
+        - link "home" [ref=f18e6] [cursor=pointer]:
+          - /url: /
+        - link "archive" [ref=f18e7] [cursor=pointer]:
+          - /url: /archive/
+        - link "projects" [ref=f18e8] [cursor=pointer]:
+          - /url: /projects/
+        - link "photos" [ref=f18e9] [cursor=pointer]:
+          - /url: /photos/
+        - link "uses" [ref=f18e10] [cursor=pointer]:
+          - /url: /uses/
+        - link "about" [ref=f18e11] [cursor=pointer]:
+          - /url: /about/
+        - link "socials" [ref=f18e12] [cursor=pointer]:
+          - /url: /socials/
+      - button "toggle theme" [ref=f18e13] [cursor=pointer]
+  - main [ref=f18e20]:
+    - generic [ref=f18e21]:
+      - heading "projects" [level=1] [ref=f18e22]
+      - paragraph [ref=f18e23]: things i've built.
+    - generic [ref=f18e24]:
+      - link "clipin clipin india's performance clipping marketplace. built with nuxt 3 + go. web go vue" [ref=f18e25] [cursor=pointer]:
+        - /url: https://github.com/vaproh/clipin
+        - img "clipin" [ref=f18e28]
+        - generic [ref=f18e29]:
+          - generic [ref=f18e30]: clipin
+          - generic [ref=f18e31]: india's performance clipping marketplace. built with nuxt 3 + go.
+          - generic [ref=f18e32]:
+            - generic [ref=f18e33]: web
+            - generic [ref=f18e34]: go
+            - generic [ref=f18e35]: vue
+      - link "dontforget dontforget your edentic memory. python" [ref=f18e36] [cursor=pointer]:
+        - /url: https://github.com/vaproh/dontforget
+        - img "dontforget" [ref=f18e39]
+        - generic [ref=f18e40]:
+          - generic [ref=f18e41]: dontforget
+          - generic [ref=f18e42]: your edentic memory.
+          - generic [ref=f18e43]: python
+      - link "awesome-coding-plans awesome-coding-plans a curated comparison of ai coding subscriptions and token plans. 20+ plans compared. web astro" [ref=f18e45] [cursor=pointer]:
+        - /url: https://awesome-coding-plans.netlify.app/
+        - img "awesome-coding-plans" [ref=f18e48]
+        - generic [ref=f18e49]:
+          - generic [ref=f18e50]: awesome-coding-plans
+          - generic [ref=f18e51]: a curated comparison of ai coding subscriptions and token plans. 20+ plans compared.
+          - generic [ref=f18e52]:
+            - generic [ref=f18e53]: web
+            - generic [ref=f18e54]: astro
+      - link "larpfetch larpfetch larp as any distro, hardware, or machine you want. reality is optional until you pass --real-shit. python cli" [ref=f18e55] [cursor=pointer]:
+        - /url: https://github.com/vaproh/larpfetch
+        - img "larpfetch" [ref=f18e58]
+        - generic [ref=f18e59]:
+          - generic [ref=f18e60]: larpfetch
+          - generic [ref=f18e61]: larp as any distro, hardware, or machine you want. reality is optional until you pass --real-shit.
+          - generic [ref=f18e62]:
+            - generic [ref=f18e63]: python
+            - generic [ref=f18e64]: cli
+      - link "ReOrchestra reorchestra bulk reddit account automation with task-based queuing, automatic rate limiting, and stealth browser integration. python automation" [ref=f18e65] [cursor=pointer]:
+        - /url: https://github.com/vaproh/ReOrchestra
+        - img "ReOrchestra" [ref=f18e68]
+        - generic [ref=f18e69]:
+          - generic [ref=f18e70]: reorchestra
+          - generic [ref=f18e71]: bulk reddit account automation with task-based queuing, automatic rate limiting, and stealth browser integration.
+          - generic [ref=f18e72]:
+            - generic [ref=f18e73]: python
+            - generic [ref=f18e74]: automation
+      - link "ig-pulse ig-pulse telegram bot that tracks instagram account status, detects bans and restorations instantly. python bot" [ref=f18e75] [cursor=pointer]:
+        - /url: https://github.com/vaproh/ig-pulse
+        - img "ig-pulse" [ref=f18e78]
+        - generic [ref=f18e79]:
+          - generic [ref=f18e80]: ig-pulse
+          - generic [ref=f18e81]: telegram bot that tracks instagram account status, detects bans and restorations instantly.
+          - generic [ref=f18e82]:
+            - generic [ref=f18e83]: python
+            - generic [ref=f18e84]: bot
+    - dialog "clipin" [active] [ref=f18e97]:
+      - generic [ref=f18e98]:
+        - generic [ref=f18e99]: clipin
+        - link "repo →" [ref=f18e100] [cursor=pointer]:
+          - /url: https://github.com/vaproh/clipin
+        - button "close" [ref=f18e101] [cursor=pointer]: ✕
+      - img "projects screenshot" [ref=f18e104]
+      - generic [ref=f18e105]:
+        - paragraph [ref=f18e106]: India’s performance clipping marketplace.
+        - heading "Stack" [level=2] [ref=f18e107]
+        - heading "Frontend" [level=3] [ref=f18e108]
+        - list [ref=f18e109]:
+          - listitem [ref=f18e110]: Bun
+          - listitem [ref=f18e111]: Nuxt 3
+          - listitem [ref=f18e112]: Vue 3
+          - listitem [ref=f18e113]: TypeScript
+          - listitem [ref=f18e114]: Tailwind CSS
+          - listitem [ref=f18e115]: shadcn-vue
+          - listitem [ref=f18e116]: Motion for Vue
+          - listitem [ref=f18e117]: Lucide
+          - listitem [ref=f18e118]: TanStack Query
+          - listitem [ref=f18e119]: Zod
+          - listitem [ref=f18e120]: VueUse
+          - listitem [ref=f18e121]: Clerk (authentication)
+        - heading "Backend" [level=3] [ref=f18e122]
+        - list [ref=f18e123]:
+          - listitem [ref=f18e124]: Go 1.24
+          - listitem [ref=f18e125]: chi
+          - listitem [ref=f18e126]: Huma (OpenAPI)
+          - listitem [ref=f18e127]: pgx
+          - listitem [ref=f18e128]: sqlc
+          - listitem [ref=f18e129]: PostgreSQL 16
+          - listitem [ref=f18e130]: Redis 7
+        - heading "Testing" [level=3] [ref=f18e131]
+        - list [ref=f18e132]:
+          - listitem [ref=f18e133]:
+            - text: Go
+            - code [ref=f18e134]: testing
+            - text: +
+            - code [ref=f18e135]: httptest
+          - listitem [ref=f18e136]: Vitest + @vue/test-utils + happy-dom
+          - listitem [ref=f18e137]: Playwright (E2E + visual QA)
+        - heading "External" [level=3] [ref=f18e138]
+        - list [ref=f18e139]:
+          - listitem [ref=f18e140]: Clerk Auth
+          - listitem [ref=f18e141]: Razorpay (test mode)
+          - listitem [ref=f18e142]: Cloudflare
+        - heading "Local development" [level=2] [ref=f18e143]
+        - paragraph [ref=f18e144]: "Prerequisites:"
+        - list [ref=f18e145]:
+          - listitem [ref=f18e146]: Bun
+          - listitem [ref=f18e147]: Go 1.24+
+          - listitem [ref=f18e148]: Docker & Docker Compose
+          - listitem [ref=f18e149]: just
+        - paragraph [ref=f18e150]: "Start databases:"
+        - code [ref=f18e153]:
+          - generic [ref=f18e154]: just db-up
+        - paragraph [ref=f18e155]: "Run frontend dev server:"
+        - code [ref=f18e158]:
+          - generic [ref=f18e159]: just dev-frontend
+        - paragraph [ref=f18e160]: "Run backend dev services:"
+        - code [ref=f18e163]:
+          - generic [ref=f18e164]: just dev-backend
+        - paragraph [ref=f18e165]: "Run everything:"
+        - code [ref=f18e168]:
+          - generic [ref=f18e169]: just dev
+        - paragraph [ref=f18e170]: "Individual services:"
+        - code [ref=f18e173]:
+          - generic [ref=f18e174]: "just web # Nuxt frontend (http://localhost:3000)"
+          - generic [ref=f18e176]: "just api # Go API (http://localhost:8080)"
+          - generic [ref=f18e178]: "just verifier # Go verifier (http://localhost:8081)"
+        - paragraph [ref=f18e180]: "Database migrations:"
+        - code [ref=f18e183]:
+          - generic [ref=f18e184]: "just migrate # run all pending"
+          - generic [ref=f18e186]: "just migrate status # check current version"
+          - generic [ref=f18e188]: "just migrate down # rollback one"
+        - heading "Testing" [level=2] [ref=f18e190]
+        - paragraph [ref=f18e191]: "Run all unit/integration tests:"
+        - code [ref=f18e194]:
+          - generic [ref=f18e195]: just test
+        - paragraph [ref=f18e197]: "Individual test suites:"
+        - code [ref=f18e200]:
+          - generic [ref=f18e201]: "just test-api # Go backend (337 tests)"
+          - generic [ref=f18e203]: "just test-integration # Postgres integration (82 tests)"
+          - generic [ref=f18e205]: "just test-web # Vitest frontend (49 tests)"
+          - generic [ref=f18e207]: "just test-e2e # Playwright E2E (57 tests)"
+        - paragraph [ref=f18e209]: "Update visual QA baselines:"
+        - code [ref=f18e212]:
+          - generic [ref=f18e213]: just test-e2e-update
+        - heading "Current scope" [level=2] [ref=f18e214]
+        - paragraph [ref=f18e215]: Open marketplace for performance clipping campaigns. Content owners fund escrow pools, clippers publish short-form clips, verified views drive earnings and UPI payouts.
+        - paragraph [ref=f18e216]: "All milestones M0-M9 are complete. Additional features: analytics dashboard, notification system (7 triggers), clipper reputation/leveling (4 tiers), RazorpayX SDK integration (test mode), Playwright E2E + visual QA, Redis caching (6 caches). Deployment excluded until production infra exists. See TODO.md for next phase."
+        - table [ref=f18e217]:
+          - rowgroup [ref=f18e218]:
+            - row [ref=f18e219]:
+              - columnheader "Milestone" [ref=f18e220]
+              - columnheader "Deliverable" [ref=f18e221]
+              - columnheader "Status" [ref=f18e222]
+          - rowgroup [ref=f18e223]:
+            - row [ref=f18e224]:
+              - cell "M0" [ref=f18e225]
+              - 'cell "Foundation: migrations, sqlc, Clerk JWT, CORS, CI" [ref=f18e226]'
+              - cell "Done" [ref=f18e227]
+            - row [ref=f18e228]:
+              - cell "M1" [ref=f18e229]
+              - cell "Users, roles, onboarding, shared UI primitives" [ref=f18e230]
+              - cell "Done" [ref=f18e231]
+            - row [ref=f18e232]:
+              - cell "M2" [ref=f18e233]
+              - cell "Campaign marketplace (list, filters, detail, cache)" [ref=f18e234]
+              - cell "Done" [ref=f18e235]
+            - row [ref=f18e236]:
+              - cell "M3" [ref=f18e237]
+              - cell "Campaign creation wizard + owner dashboard" [ref=f18e238]
+              - cell "Done" [ref=f18e239]
+            - row [ref=f18e240]:
+              - cell "M4" [ref=f18e241]
+              - cell "Submissions (lifecycle, review, dedupe, auto-approve)" [ref=f18e242]
+              - cell "Done" [ref=f18e243]
+            - row [ref=f18e244]:
+              - cell "M5" [ref=f18e245]
+              - cell "Verification contract (metric snapshots, deltas)" [ref=f18e246]
+              - cell "Done" [ref=f18e247]
+            - row [ref=f18e248]:
+              - cell "M6" [ref=f18e249]
+              - cell "Append-only financial ledger (idempotent entries)" [ref=f18e250]
+              - cell "Done" [ref=f18e251]
+            - row [ref=f18e252]:
+              - cell "M7" [ref=f18e253]
+              - cell "Payouts (UPI, RazorpayX SDK, webhook)" [ref=f18e254]
+              - cell "Done" [ref=f18e255]
+            - row [ref=f18e256]:
+              - cell "M8" [ref=f18e257]
+              - cell "Admin controls, fraud flags, audit logs, rate limiting" [ref=f18e258]
+              - cell "Done" [ref=f18e259]
+            - row [ref=f18e260]:
+              - cell "M9" [ref=f18e261]
+              - cell "Launch polish (SEO, meta tags, build verification)" [ref=f18e262]
+              - cell "Done" [ref=f18e263]
+            - row [ref=f18e264]:
+              - cell "Mobile" [ref=f18e265]
+              - cell "Hamburger drawer, touch targets, overflow fixes" [ref=f18e266]
+              - cell "Done" [ref=f18e267]
+            - row [ref=f18e268]:
+              - cell "Testing" [ref=f18e269]
+              - cell "Vitest unit tests, Playwright E2E + visual QA" [ref=f18e270]
+              - cell "Done" [ref=f18e271]
+        - heading "Repository structure" [level=2] [ref=f18e272]
+        - code [ref=f18e275]:
+          - generic [ref=f18e276]: apps/
+          - generic [ref=f18e277]: "web/ # Nuxt 3 frontend"
+          - generic [ref=f18e278]: "components/ # Vue components (app/, campaign/, landing/, ledger/, settings/, shared/, submission/, ui/)"
+          - generic [ref=f18e279]: "composables/ # TanStack Query composables"
+          - generic [ref=f18e280]: "e2e/ # Playwright E2E + visual QA tests"
+          - generic [ref=f18e281]: "layouts/ # Nuxt layouts (default, app)"
+          - generic [ref=f18e282]: "pages/ # Nuxt pages (landing, auth, app/*) - 19 pages"
+          - generic [ref=f18e283]: "lib/ # Utilities (formatPaise, cn)"
+          - generic [ref=f18e284]: "assets/css/ # Tailwind + design tokens"
+          - generic [ref=f18e285]: "vitest.config.ts # Vitest configuration"
+          - generic [ref=f18e286]: "playwright.config.ts # Playwright configuration"
+          - generic [ref=f18e287]: "api/ # Go API server"
+          - generic [ref=f18e288]: "cmd/api/ # API entrypoint"
+          - generic [ref=f18e289]: "cmd/migrate/ # Migration CLI (up/down/status/goto)"
+          - generic [ref=f18e290]: "db/migrations/ # SQL migrations (000001-000009)"
+          - generic [ref=f18e291]: "db/query.sql # sqlc query definitions (100+ queries)"
+          - generic [ref=f18e292]: internal/
+          - generic [ref=f18e293]: "auth/ # JWT + session middleware"
+          - generic [ref=f18e294]: "config/ # Environment configuration"
+          - generic [ref=f18e295]: "db/sqlc/ # Generated models + queries"
+          - generic [ref=f18e296]: "http/handlers/ # Huma handlers (16 handler files)"
+          - generic [ref=f18e297]: "integration/ # Postgres integration tests (82 tests)"
+          - generic [ref=f18e298]: "middleware/ # Rate limiter"
+          - generic [ref=f18e299]: "payout/ # PayoutProvider interface + Razorpay SDK"
+          - generic [ref=f18e300]: "redis/ # Redis client"
+          - generic [ref=f18e301]: "service/ # Business logic (16 service files)"
+          - generic [ref=f18e302]: "worker/ # Background workers (auto-approve, payout processor)"
+          - generic [ref=f18e303]: services/
+          - generic [ref=f18e304]: "verifier/ # View verification service (stub only, see TODO.md)"
+          - generic [ref=f18e305]: infra/
+          - generic [ref=f18e306]: "docker/ # Docker configurations (planned)"
+          - generic [ref=f18e307]: docs/
+          - generic [ref=f18e308]: architecture.md
+          - generic [ref=f18e309]: verification-contract.md
+          - generic [ref=f18e310]: "PRD.md # Product requirements"
+          - generic [ref=f18e311]: "AGENTS.md # Engineering principles + execution plan"
+          - generic [ref=f18e312]: "TODO.md # Next phase: verifier + mobile"
+          - generic [ref=f18e313]: "justfile # Developer commands"
+          - generic [ref=f18e314]: "docker-compose.yml # PostgreSQL + Redis"
+          - generic [ref=f18e315]: ".env.example # Environment template"
+    - text: “ “ “ “ “ “ “ “ “
+  - contentinfo [ref=f18e85]:
+    - generic [ref=f18e86]:
+      - generic [ref=f18e87]:
+        - generic [ref=f18e88]: vaproh
+        - generic [ref=f18e89]: ·
+        - generic [ref=f18e90]: © 2026
+        - generic [ref=f18e91]: ·
+        - generic [ref=f18e92]: "local time: 07:00 PM"
+      - generic [ref=f18e93]:
+        - link "github" [ref=f18e94] [cursor=pointer]:
+          - /url: https://github.com/vaproh
+        - link "rss" [ref=f18e95] [cursor=pointer]:
+          - /url: /feed.xml
+        - link "email" [ref=f18e96] [cursor=pointer]:
+          - /url: mailto:utkarsh@vaproh.space

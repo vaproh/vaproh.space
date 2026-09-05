@@ -1,0 +1,617 @@
+- generic [ref=f7e1]:
+  - banner [ref=f7e2]:
+    - generic [ref=f7e3]:
+      - link "vaproh" [ref=f7e4] [cursor=pointer]:
+        - /url: /
+      - navigation "main navigation" [ref=f7e5]:
+        - link "home" [ref=f7e6] [cursor=pointer]:
+          - /url: /
+        - link "archive" [ref=f7e7] [cursor=pointer]:
+          - /url: /archive/
+        - link "projects" [ref=f7e8] [cursor=pointer]:
+          - /url: /projects/
+        - link "photos" [ref=f7e9] [cursor=pointer]:
+          - /url: /photos/
+        - link "uses" [ref=f7e10] [cursor=pointer]:
+          - /url: /uses/
+        - link "about" [ref=f7e11] [cursor=pointer]:
+          - /url: /about/
+        - link "socials" [ref=f7e12] [cursor=pointer]:
+          - /url: /socials/
+      - button "toggle theme" [ref=f7e13] [cursor=pointer]
+  - main [ref=f7e20]:
+    - generic [ref=f7e21]:
+      - heading "projects" [level=1] [ref=f7e22]
+      - paragraph [ref=f7e23]: things i've built.
+    - generic [ref=f7e24]:
+      - link "clipin clipin india's performance clipping marketplace. built with nuxt 3 + go. web go vue" [ref=f7e25] [cursor=pointer]:
+        - /url: https://github.com/vaproh/clipin
+        - img "clipin" [ref=f7e28]
+        - generic [ref=f7e29]:
+          - generic [ref=f7e30]: clipin
+          - generic [ref=f7e31]: india's performance clipping marketplace. built with nuxt 3 + go.
+          - generic [ref=f7e32]:
+            - generic [ref=f7e33]: web
+            - generic [ref=f7e34]: go
+            - generic [ref=f7e35]: vue
+      - link "dontforget dontforget your edentic memory. python" [ref=f7e36] [cursor=pointer]:
+        - /url: https://github.com/vaproh/dontforget
+        - img "dontforget" [ref=f7e39]
+        - generic [ref=f7e40]:
+          - generic [ref=f7e41]: dontforget
+          - generic [ref=f7e42]: your edentic memory.
+          - generic [ref=f7e43]: python
+      - link "awesome-coding-plans awesome-coding-plans a curated comparison of ai coding subscriptions and token plans. 20+ plans compared. web astro" [ref=f7e45] [cursor=pointer]:
+        - /url: https://awesome-coding-plans.netlify.app/
+        - img "awesome-coding-plans" [ref=f7e48]
+        - generic [ref=f7e49]:
+          - generic [ref=f7e50]: awesome-coding-plans
+          - generic [ref=f7e51]: a curated comparison of ai coding subscriptions and token plans. 20+ plans compared.
+          - generic [ref=f7e52]:
+            - generic [ref=f7e53]: web
+            - generic [ref=f7e54]: astro
+      - link "larpfetch larpfetch larp as any distro, hardware, or machine you want. reality is optional until you pass --real-shit. python cli" [ref=f7e55] [cursor=pointer]:
+        - /url: https://github.com/vaproh/larpfetch
+        - img "larpfetch" [ref=f7e58]
+        - generic [ref=f7e59]:
+          - generic [ref=f7e60]: larpfetch
+          - generic [ref=f7e61]: larp as any distro, hardware, or machine you want. reality is optional until you pass --real-shit.
+          - generic [ref=f7e62]:
+            - generic [ref=f7e63]: python
+            - generic [ref=f7e64]: cli
+      - link "ReOrchestra reorchestra bulk reddit account automation with task-based queuing, automatic rate limiting, and stealth browser integration. python automation" [ref=f7e65] [cursor=pointer]:
+        - /url: https://github.com/vaproh/ReOrchestra
+        - img "ReOrchestra" [ref=f7e68]
+        - generic [ref=f7e69]:
+          - generic [ref=f7e70]: reorchestra
+          - generic [ref=f7e71]: bulk reddit account automation with task-based queuing, automatic rate limiting, and stealth browser integration.
+          - generic [ref=f7e72]:
+            - generic [ref=f7e73]: python
+            - generic [ref=f7e74]: automation
+      - link "ig-pulse ig-pulse telegram bot that tracks instagram account status, detects bans and restorations instantly. python bot" [ref=f7e75] [cursor=pointer]:
+        - /url: https://github.com/vaproh/ig-pulse
+        - img "ig-pulse" [ref=f7e78]
+        - generic [ref=f7e79]:
+          - generic [ref=f7e80]: ig-pulse
+          - generic [ref=f7e81]: telegram bot that tracks instagram account status, detects bans and restorations instantly.
+          - generic [ref=f7e82]:
+            - generic [ref=f7e83]: python
+            - generic [ref=f7e84]: bot
+    - text: “ “ “ “
+    - dialog "larpfetch" [ref=f7e97]:
+      - generic [ref=f7e98]:
+        - generic [ref=f7e99]: larpfetch
+        - link "repo →" [active] [ref=f7e100] [cursor=pointer]:
+          - /url: https://github.com/vaproh/larpfetch
+        - button "close" [ref=f7e101] [cursor=pointer]: ✕
+      - img "projects screenshot" [ref=f7e102]
+      - generic [ref=f7e103]:
+        - blockquote [ref=f7e104]:
+          - text: “
+          - paragraph [ref=f7e105]:
+            - strong [ref=f7e106]:
+              - text: LARP as any distro, hardware, or machine you want. Because reality is optional until you pass
+              - code [ref=f7e107]: "--real-shit"
+              - text: .
+        - blockquote [ref=f7e108]:
+          - text: “
+          - paragraph [ref=f7e109]:
+            - strong [ref=f7e110]: 100% made by autonomous coding agents
+            - text: — no human writes code here. See AGENTS.md for the operating manual.
+        - blockquote [ref=f7e111]:
+          - text: “
+          - paragraph [ref=f7e112]:
+            - text: If you like this project, drop a ⭐ on
+            - link "GitHub" [ref=f7e113] [cursor=pointer]:
+              - /url: https://github.com/vaproh/larpfetch
+            - text: — it helps others find it.
+        - paragraph [ref=f7e114]:
+          - link [ref=f7e115] [cursor=pointer]:
+            - /url: https://pypi.org/project/larpfetch/
+            - img "PyPI - Version" [ref=f7e116]
+          - link [ref=f7e117] [cursor=pointer]:
+            - /url: LICENSE
+            - img "GitHub License" [ref=f7e118]
+          - link [ref=f7e119] [cursor=pointer]:
+            - /url: https://github.com/vaproh/larpfetch/commits/main
+            - img "GitHub last commit" [ref=f7e120]
+          - link [ref=f7e121] [cursor=pointer]:
+            - /url: https://python.org
+            - img "Built with Python" [ref=f7e122]
+          - link [ref=f7e123] [cursor=pointer]:
+            - /url: https://github.com/giampaolo/psutil
+            - img "Powered by psutil" [ref=f7e124]
+          - link [ref=f7e125] [cursor=pointer]:
+            - /url: https://github.com/fastfetch-cli/fastfetch
+            - img "Logos from fastfetch" [ref=f7e126]
+          - link [ref=f7e127] [cursor=pointer]:
+            - /url: AGENTS.md
+            - img "100% Autonomous" [ref=f7e128]
+        - table [ref=f7e129]:
+          - rowgroup:
+            - row:
+              - columnheader
+              - columnheader
+          - rowgroup [ref=f7e130]:
+            - row [ref=f7e131]:
+              - cell "A cross-platform terminal fetch utility that detects real system information and lets you lie about it. Ships with 533 colored ASCII logos from fastfetch and 13 built-in LARP profiles." [ref=f7e132]
+              - cell [ref=f7e133]:
+                - img "There's no limit to the LARP" [ref=f7e134]
+        - heading "Demo" [level=2] [ref=f7e135]
+        - paragraph [ref=f7e136]:
+          - img "larpfetch demo" [ref=f7e137]
+        - heading "Installation" [level=2] [ref=f7e138]
+        - code [ref=f7e141]:
+          - generic [ref=f7e142]: uv tool install larpfetch
+        - paragraph [ref=f7e143]: "Or with pipx:"
+        - code [ref=f7e146]:
+          - generic [ref=f7e147]: pipx install larpfetch
+        - blockquote [ref=f7e148]:
+          - text: “
+          - paragraph [ref=f7e149]:
+            - strong [ref=f7e150]: "Note:"
+            - text: "If pipx installs an older version, it may have a stale cache. Fix with:"
+          - code [ref=f7e153]:
+            - generic [ref=f7e154]: pipx uninstall larpfetch && pipx install --index-url https://pypi.org/simple/ larpfetch
+        - heading "Upgrade" [level=3] [ref=f7e156]
+        - code [ref=f7e159]:
+          - generic [ref=f7e160]: "uv tool upgrade larpfetch # uv"
+          - generic [ref=f7e162]: "pipx upgrade larpfetch # pipx"
+        - heading "Clear cache" [level=3] [ref=f7e164]
+        - code [ref=f7e167]:
+          - generic [ref=f7e168]: "uv cache clean # uv"
+          - generic [ref=f7e170]: "pipx uninstall larpfetch && pipx install larpfetch # pipx"
+        - heading "Usage" [level=2] [ref=f7e172]
+        - code [ref=f7e175]:
+          - generic [ref=f7e176]: "larpfetch # Show real system info with auto-detected logo"
+          - generic [ref=f7e178]: "larpfetch -p nasa # LARP as NASA Linux"
+          - generic [ref=f7e180]: "larpfetch -p hacker # Become a Parrot OS hacker"
+          - generic [ref=f7e182]: "larpfetch --distro gentoo # LARP as a specific distro"
+          - generic [ref=f7e184]: "larpfetch --small # Use small ASCII art"
+          - generic [ref=f7e186]: "larpfetch --json # Output as JSON"
+          - generic [ref=f7e188]: "larpfetch --diff-real # Show only what differs from reality"
+          - generic [ref=f7e190]: "larpfetch --show-sources # Show where each value came from"
+          - generic [ref=f7e192]: "larpfetch --shell-info # Show shell version"
+          - generic [ref=f7e194]: "larpfetch --gpu-info # Show GPU driver details"
+          - generic [ref=f7e196]: "larpfetch --disk-info # Show per-disk breakdown (disk holding $HOME by default)"
+          - generic [ref=f7e198]: "larpfetch --disk-info /data # Show only the /data disk"
+          - generic [ref=f7e200]: "larpfetch --disk-info all # Include virtual mounts (tmpfs, proc, …)"
+          - generic [ref=f7e202]: "larpfetch --minimal # Show a short field set"
+          - generic [ref=f7e204]: "larpfetch --compact # Show standard fields without the logo"
+          - generic [ref=f7e206]: "larpfetch --full # Show all fields"
+          - generic [ref=f7e208]: "larpfetch --real-shit # Show only real detected values"
+          - generic [ref=f7e210]: "larpfetch --list-profiles # List all available profiles"
+          - generic [ref=f7e212]: "larpfetch --show-config # Show current configuration"
+          - generic [ref=f7e214]: "larpfetch --generate-config # Print a starter config"
+        - heading "Override any field" [level=3] [ref=f7e216]
+        - code [ref=f7e219]:
+          - generic [ref=f7e220]: larpfetch --set cpu="Quantum Potato 9000"
+          - generic [ref=f7e222]: larpfetch --set os="Windows 11 Pro" --set kernel="6.18.7-arch1-1"
+          - generic [ref=f7e224]: larpfetch --distro fedora --set os="Fedora Linux"
+        - paragraph [ref=f7e226]: Custom fields are supported. Unknown fields display with auto-formatted labels.
+        - heading "Built-in Profiles" [level=2] [ref=f7e227]
+        - table [ref=f7e228]:
+          - rowgroup [ref=f7e229]:
+            - row [ref=f7e230]:
+              - columnheader "Profile" [ref=f7e231]
+              - columnheader "OS" [ref=f7e232]
+              - columnheader "Highlights" [ref=f7e233]
+          - rowgroup [ref=f7e234]:
+            - row [ref=f7e235]:
+              - cell [ref=f7e236]:
+                - code [ref=f7e237]: nasa
+              - cell "NASA Linux" [ref=f7e238]
+              - cell "Quantum Potato 9000, 69 PiB RAM, Classified GPU" [ref=f7e239]
+            - row [ref=f7e240]:
+              - cell [ref=f7e241]:
+                - code [ref=f7e242]: abomination
+              - cell "Windows 11 Pro" [ref=f7e243]
+              - cell "Apple M7 Ultra, HolyC shell, GNOME 83" [ref=f7e244]
+            - row [ref=f7e245]:
+              - cell [ref=f7e246]:
+                - code [ref=f7e247]: hacker
+              - cell "Parrot OS" [ref=f7e248]
+              - cell "RTX 4090, 128 GiB, KDE Plasma 6" [ref=f7e249]
+            - row [ref=f7e250]:
+              - cell [ref=f7e251]:
+                - code [ref=f7e252]: macbook
+              - cell "macOS Sequoia" [ref=f7e253]
+              - cell "M4 Max, 40-core GPU, Aqua DE" [ref=f7e254]
+            - row [ref=f7e255]:
+              - cell [ref=f7e256]:
+                - code [ref=f7e257]: server
+              - cell "Ubuntu Server 24.04" [ref=f7e258]
+              - cell "EPYC 9654, 2 TiB RAM, headless" [ref=f7e259]
+            - row [ref=f7e260]:
+              - cell [ref=f7e261]:
+                - code [ref=f7e262]: retro
+              - cell "Windows 98 SE" [ref=f7e263]
+              - cell "Pentium III, Voodoo3, 256 MiB" [ref=f7e264]
+            - row [ref=f7e265]:
+              - cell [ref=f7e266]:
+                - code [ref=f7e267]: gamer
+              - cell "Windows 11 Pro" [ref=f7e268]
+              - cell "Ryzen 9 9950X3D, RTX 5090" [ref=f7e269]
+            - row [ref=f7e270]:
+              - cell [ref=f7e271]:
+                - code [ref=f7e272]: minimal
+              - cell "Alpine Linux" [ref=f7e273]
+              - cell "512 MiB, ash shell" [ref=f7e274]
+            - row [ref=f7e275]:
+              - cell [ref=f7e276]:
+                - code [ref=f7e277]: templeos
+              - cell "TempleOS" [ref=f7e278]
+              - cell "HolyC, 640x480 16-color" [ref=f7e279]
+            - row [ref=f7e280]:
+              - cell [ref=f7e281]:
+                - code [ref=f7e282]: haiku
+              - cell "Haiku R1/beta4" [ref=f7e283]
+              - cell "Haiku Desktop" [ref=f7e284]
+            - row [ref=f7e285]:
+              - cell [ref=f7e286]:
+                - code [ref=f7e287]: steamdeck
+              - cell "SteamOS 3.6" [ref=f7e288]
+              - cell "AMD Custom Zen 2, RDNA 2" [ref=f7e289]
+            - row [ref=f7e290]:
+              - cell [ref=f7e291]:
+                - code [ref=f7e292]: ghostbsd
+              - cell "GhostBSD 24.04" [ref=f7e293]
+              - cell "Intel Core i7, UHD Graphics 770" [ref=f7e294]
+            - row [ref=f7e295]:
+              - cell [ref=f7e296]:
+                - code [ref=f7e297]: android
+              - cell "Android 14" [ref=f7e298]
+              - cell "Snapdragon 8 Gen 3, Adreno 750" [ref=f7e299]
+        - paragraph [ref=f7e300]: User-defined profiles in your config file override built-in ones with the same name.
+        - heading "Configuration" [level=2] [ref=f7e301]
+        - paragraph [ref=f7e302]:
+          - text: "Default config location:"
+          - code [ref=f7e303]: ~/.config/larpfetch/config.toml
+        - code [ref=f7e306]:
+          - generic [ref=f7e307]: "[default]"
+          - generic [ref=f7e309]: os = "Arch Linux"
+          - generic [ref=f7e311]: distro = "Arch Linux"
+          - generic [ref=f7e313]: hostname = "btw-i-use-arch"
+          - generic [ref=f7e315]: kernel = "6.99.0-larp"
+          - generic [ref=f7e317]: cpu = "AMD Ryzen 9 9950X3D"
+          - generic [ref=f7e319]: gpu = "NVIDIA RTX 5090"
+          - generic [ref=f7e321]: memory = "128 GiB"
+          - generic [ref=f7e323]: shell = "zsh"
+          - generic [ref=f7e325]: "[profiles.custom]"
+          - generic [ref=f7e327]: os = "My Custom OS"
+          - generic [ref=f7e329]: cpu = "Custom CPU"
+          - generic [ref=f7e331]: "logo = \"arch\" # Reference a built-in logo by name"
+          - generic [ref=f7e333]: "[profiles.art]"
+          - generic [ref=f7e335]: os = "Artistic OS"
+          - generic [ref=f7e337]: logo = """\
+          - generic [ref=f7e339]: /\\
+          - generic [ref=f7e341]: / \\
+          - generic [ref=f7e343]: / \\
+          - generic [ref=f7e345]: / \\
+          - generic [ref=f7e347]: /________\\
+          - generic [ref=f7e349]: "\"\"\" # Or inline custom ASCII art"
+          - generic [ref=f7e351]: "[appearance]"
+          - generic [ref=f7e353]: color = true
+          - generic [ref=f7e355]: show_authenticity = true
+          - generic [ref=f7e357]: easter_eggs = true
+          - generic [ref=f7e359]: "small = true # Always use small ASCII art"
+          - generic [ref=f7e361]: "[display]"
+          - generic [ref=f7e363]: fields = ["os", "kernel", "cpu", "memory"]
+          - generic [ref=f7e365]: separator = " -> "
+          - generic [ref=f7e367]: hide_unavailable = true
+          - generic [ref=f7e369]: "[display.labels]"
+          - generic [ref=f7e371]: memory = "RAM"
+        - heading "Platform-specific config locations" [level=3] [ref=f7e373]
+        - list [ref=f7e374]:
+          - listitem [ref=f7e375]:
+            - strong [ref=f7e376]: Linux
+            - text: ":"
+            - code [ref=f7e377]: $XDG_CONFIG_HOME/larpfetch/config.toml
+            - text: or
+            - code [ref=f7e378]: ~/.config/larpfetch/config.toml
+          - listitem [ref=f7e379]:
+            - strong [ref=f7e380]: macOS
+            - text: ":"
+            - code [ref=f7e381]: ~/Library/Application Support/larpfetch/config.toml
+          - listitem [ref=f7e382]:
+            - strong [ref=f7e383]: Windows
+            - text: ":"
+            - code [ref=f7e384]: "%APPDATA%\\larpfetch\\config.toml"
+        - paragraph [ref=f7e385]: For the full config reference (all fields, appearance options, profiles, inline logos), see docs/CONFIG.md. For a complete command reference, see docs/USAGE.md.
+        - heading "Precedence" [level=2] [ref=f7e386]
+        - paragraph [ref=f7e387]: "Normal mode:"
+        - code [ref=f7e389]: CLI overrides > selected profile > default profile > real detected values
+        - paragraph [ref=f7e390]:
+          - text: Reality mode (
+          - code [ref=f7e391]: "--real-shit"
+          - text: "):"
+        - code [ref=f7e393]: Real values only — bypasses everything
+        - heading "Logos" [level=2] [ref=f7e394]
+        - paragraph [ref=f7e395]:
+          - text: 533 ASCII logos adapted from
+          - link "fastfetch" [ref=f7e396] [cursor=pointer]:
+            - /url: https://github.com/fastfetch-cli/fastfetch
+          - text: (MIT licensed), with full ANSI color support. Colors are applied automatically and respect
+          - code [ref=f7e397]: NO_COLOR
+          - text: .
+        - paragraph [ref=f7e398]:
+          - text: Logo selection is based on your displayed identity (or real identity in
+          - code [ref=f7e399]: "--real-shit"
+          - text: mode). Profiles can override the logo by name or provide custom ASCII art.
+        - heading "Easter Eggs" [level=2] [ref=f7e400]
+        - paragraph [ref=f7e401]: "The output may include occasional humorous lines:"
+        - list [ref=f7e402]:
+          - listitem [ref=f7e403]:
+            - code [ref=f7e404]: "Authenticity: N%"
+            - text: — how much of your output is real
+          - listitem [ref=f7e405]:
+            - code [ref=f7e406]: "Source: trust me bro"
+            - text: — triggered by implausible memory values
+          - listitem [ref=f7e407]:
+            - code [ref=f7e408]: "Reality Leakage: 100.00%"
+            - text: — absurdly high package counts
+          - listitem [ref=f7e409]:
+            - code [ref=f7e410]: "Disappointment: immeasurable"
+            - text: — shown in
+            - code [ref=f7e411]: "--real-shit"
+            - text: mode
+          - listitem [ref=f7e412]:
+            - code [ref=f7e413]: The allegations were true.
+            - text: — deterministic, based on username hash
+        - paragraph [ref=f7e414]:
+          - text: Easter eggs are deterministic, disableable via
+          - code [ref=f7e415]: "[appearance] easter_eggs = false"
+          - text: or
+          - code [ref=f7e416]: LARPFETCH_NO_EASTER_EGGS=1
+          - text: ", and not offensive."
+        - heading "Not just a meme" [level=2] [ref=f7e417]
+        - paragraph [ref=f7e418]: "larpfetch is funny on purpose, but it’s a real daily-driver fetch tool underneath:"
+        - list [ref=f7e419]:
+          - listitem [ref=f7e420]:
+            - text: Detects your actual system with
+            - code [ref=f7e421]: psutil
+            - text: and platform-specific probes
+          - listitem [ref=f7e422]:
+            - text: Clean, aligned, color-aware output that respects
+            - code [ref=f7e423]: NO_COLOR
+            - text: and narrow terminals
+          - listitem [ref=f7e424]:
+            - text: "Scriptable:"
+            - code [ref=f7e425]: "--json"
+            - text: ","
+            - code [ref=f7e426]: "--minimal"
+            - text: ","
+            - code [ref=f7e427]: "--compact"
+            - text: ","
+            - code [ref=f7e428]: "--full"
+            - text: ", and automatic pipe mode"
+          - listitem [ref=f7e429]:
+            - text: "Fully customizable: declarative"
+            - code [ref=f7e430]: "[display]"
+            - text: config, named profiles, and CLI overrides
+          - listitem [ref=f7e431]: Cross-platform (Linux, macOS, Windows) with graceful degradation
+        - heading "Reality vs delusion" [level=3] [ref=f7e432]
+        - paragraph [ref=f7e433]:
+          - text: By default larpfetch shows your LARP identity.
+          - code [ref=f7e434]: "--real-shit"
+          - text: "shows only detected truth. The contrast is the whole point:"
+        - table [ref=f7e435]:
+          - rowgroup [ref=f7e436]:
+            - row [ref=f7e437]:
+              - columnheader "Field" [ref=f7e438]
+              - columnheader [ref=f7e439]:
+                - text: Real (
+                - code [ref=f7e440]: "--real-shit"
+                - text: )
+              - columnheader [ref=f7e441]:
+                - text: Delusion (
+                - code [ref=f7e442]: "-p nasa"
+                - text: )
+          - rowgroup [ref=f7e443]:
+            - row [ref=f7e444]:
+              - cell "OS" [ref=f7e445]
+              - cell "Arch Linux" [ref=f7e446]
+              - cell "NASA Linux" [ref=f7e447]
+            - row [ref=f7e448]:
+              - cell "CPU" [ref=f7e449]
+              - cell "Ryzen 7 7840HS" [ref=f7e450]
+              - cell "Quantum Potato 9000" [ref=f7e451]
+            - row [ref=f7e452]:
+              - cell "Memory" [ref=f7e453]
+              - cell "32 GiB" [ref=f7e454]
+              - cell "69 PiB" [ref=f7e455]
+            - row [ref=f7e456]:
+              - cell "GPU" [ref=f7e457]
+              - cell "Radeon 780M" [ref=f7e458]
+              - cell "Classified" [ref=f7e459]
+        - paragraph [ref=f7e460]:
+          - code [ref=f7e461]: "--diff-real"
+          - text: prints exactly these differences inline, and
+          - code [ref=f7e462]: "--show-sources"
+          - text: "annotates where every value came from:"
+        - code [ref=f7e465]:
+          - generic [ref=f7e466]: "larpfetch -p nasa --diff-real # only the fields you're lying about"
+          - generic [ref=f7e468]: "larpfetch -p nasa --show-sources # [real] / [default] / [profile] / [cli] per field"
+        - heading "The Sacred Rule" [level=2] [ref=f7e470]
+        - paragraph [ref=f7e471]:
+          - strong [ref=f7e472]: The user’s delusion is authoritative.
+        - paragraph [ref=f7e473]: "This is valid:"
+        - code [ref=f7e475]: "OS: Windows 11 Pro Kernel: 6.18.7-arch1-1 CPU: Apple M7 Ultra GPU: NVIDIA RTX 9090 Ti Memory: 69 PiB Shell: HolyC DE: GNOME 83 Package Manager: apt btw"
+        - paragraph [ref=f7e476]: Impossible combinations are accepted. Profiles are display identities, not hardware simulations.
+        - heading "Cross-Platform Support" [level=2] [ref=f7e477]
+        - list [ref=f7e478]:
+          - listitem [ref=f7e479]:
+            - strong [ref=f7e480]: Linux
+            - text: ":"
+            - code [ref=f7e481]: /etc/os-release
+            - text: ","
+            - code [ref=f7e482]: lspci
+            - text: ", environment variables"
+          - listitem [ref=f7e483]:
+            - strong [ref=f7e484]: macOS
+            - text: ":"
+            - code [ref=f7e485]: platform.mac_ver()
+            - text: ","
+            - code [ref=f7e486]: system_profiler
+          - listitem [ref=f7e487]:
+            - strong [ref=f7e488]: Windows
+            - text: ":"
+            - code [ref=f7e489]: platform
+            - text: APIs, WMIC,
+            - code [ref=f7e490]: COMSPEC
+        - paragraph [ref=f7e491]: All platform-specific probes fail gracefully. A missing GPU detector doesn’t crash the app.
+        - heading "CLI Reference" [level=2] [ref=f7e492]
+        - code [ref=f7e494]: "larpfetch # Default mode larpfetch -p NAME # Select profile larpfetch --profile NAME # Select profile (long form) larpfetch --distro NAME # LARP as a specific distro larpfetch --logo NAME # Pick a specific logo by name larpfetch --small # Use small ASCII art larpfetch --cols N # Force column width for logo larpfetch --list-logos # List all available logos larpfetch --list-logos --search ubuntu # Search logos larpfetch --real-shit # Real system info only larpfetch --json # Output as JSON larpfetch --json --with-sources # JSON with per-field provenance larpfetch --diff-real # Show only fields that differ from real larpfetch --show-sources # Show where each value came from larpfetch --shell-info # Show shell version larpfetch --gpu-info # Show GPU driver details larpfetch --disk-info # Show per-disk breakdown ($HOME disk by default) larpfetch --disk-info /data # Show only the /data disk larpfetch --disk-info all # Include virtual mounts larpfetch --minimal # Short field preset larpfetch --compact # Standard fields, no logo larpfetch --full # All available fields larpfetch --export-profile [NAME] # Export real system as a shareable profile larpfetch --profile-file PATH # Load a standalone profile file larpfetch --inspect-profile NAME|PATH # Inspect a profile or profile file larpfetch --list-profiles # List all profiles larpfetch --show-config # Show current config larpfetch --generate-config # Print a starter config larpfetch --check-config # Validate the config file larpfetch --config /path/to/config.toml # Custom config path larpfetch --set key=value # Override a field (repeatable) larpfetch --color # Force color output larpfetch --no-color # Disable color output larpfetch --version # Show version larpfetch --help # Show help"
+        - heading "Sharing profiles" [level=2] [ref=f7e495]
+        - paragraph [ref=f7e496]: Export your real system as a standalone profile, then share the file. Profiles are data-only TOML — loading one never executes code.
+        - code [ref=f7e499]:
+          - generic [ref=f7e500]: "larpfetch --export-profile myrig > myrig.toml # capture your real system"
+          - generic [ref=f7e502]: "larpfetch --profile-file myrig.toml # someone else LARPs as your rig"
+          - generic [ref=f7e504]: "larpfetch --inspect-profile myrig.toml # see what a profile contains"
+        - heading "Resources" [level=2] [ref=f7e506]
+        - list [ref=f7e507]:
+          - listitem [ref=f7e508]: Usage docs — full command reference with examples
+          - listitem [ref=f7e509]: Configuration docs — full config reference
+          - listitem [ref=f7e510]: Architecture — module map and data flow
+          - listitem [ref=f7e511]: Changelog — version history
+          - listitem [ref=f7e512]: Roadmap — planned features
+        - heading "Development" [level=2] [ref=f7e513]
+        - code [ref=f7e516]:
+          - generic [ref=f7e517]: git clone https://github.com/vaproh/larpfetch.git
+          - generic [ref=f7e518]: cd larpfetch
+          - generic [ref=f7e520]: uv sync
+          - generic [ref=f7e521]: just test
+          - generic [ref=f7e523]: just lint
+        - paragraph [ref=f7e524]: "Or with just:"
+        - code [ref=f7e527]:
+          - generic [ref=f7e528]: "just dev # install in dev mode"
+          - generic [ref=f7e530]: "just test # run tests"
+          - generic [ref=f7e532]: "just lint # ruff check"
+          - generic [ref=f7e534]: "just fmt # ruff format"
+          - generic [ref=f7e536]: "just check # lint + test"
+          - generic [ref=f7e538]: "just all # format + lint + test"
+        - paragraph [ref=f7e540]:
+          - text: "361 tests covering: config loading, display layout, profile resolution, provenance tracking,"
+          - code [ref=f7e541]: "--real-shit"
+          - text: invariant, CLI parsing, logo selection, ANSI alignment, easter egg determinism, collector degradation, and more.
+        - blockquote [ref=f7e542]:
+          - text: “
+          - paragraph [ref=f7e543]:
+            - strong [ref=f7e544]: "Maintenance:"
+            - text: This project is 100% made by autonomous coding agents — developed, tested, and released without any human coding. The authoritative operating manual for that process lives in AGENTS.md.
+        - heading "Roadmap" [level=2] [ref=f7e545]
+        - table [ref=f7e546]:
+          - rowgroup [ref=f7e547]:
+            - row [ref=f7e548]:
+              - columnheader "Release" [ref=f7e549]
+              - columnheader "Theme" [ref=f7e550]
+          - rowgroup [ref=f7e551]:
+            - row [ref=f7e552]:
+              - cell [ref=f7e553]:
+                - strong [ref=f7e554]: v1.1
+              - cell [ref=f7e555]:
+                - code [ref=f7e556]: "--logo"
+                - text: ","
+                - code [ref=f7e557]: "--list-logos"
+                - text: ","
+                - code [ref=f7e558]: "--cols"
+                - text: ","
+                - code [ref=f7e559]: "--distro"
+                - text: ","
+                - code [ref=f7e560]: "--small"
+                - text: ✨
+            - row [ref=f7e561]:
+              - cell [ref=f7e562]:
+                - strong [ref=f7e563]: v1.2
+              - cell "JSON output, package count, shell/GPU/disk details ✨" [ref=f7e564]
+            - row [ref=f7e565]:
+              - cell [ref=f7e566]:
+                - strong [ref=f7e567]: v1.3
+              - cell "Daily-driver customization — declarative display, density presets, terminal responsiveness ✨" [ref=f7e568]
+            - row [ref=f7e569]:
+              - cell [ref=f7e570]:
+                - strong [ref=f7e571]: v1.4
+              - cell [ref=f7e572]:
+                - text: Reality vs delusion —
+                - code [ref=f7e573]: "--diff-real"
+                - text: ","
+                - code [ref=f7e574]: "--show-sources"
+                - text: ", shareable profiles ✨"
+            - row [ref=f7e575]:
+              - cell [ref=f7e576]:
+                - strong [ref=f7e577]: v1.5
+              - cell [ref=f7e578]:
+                - text: "Daily-driver system info — battery state, resolution, terminal/WM/compositor, device & motherboard, multi-GPU, multi-disk ✅ (v1.5.1:"
+                - code [ref=f7e579]: "--disk-info"
+                - text: defaults to
+                - code [ref=f7e580]: $HOME
+                - text: disk, takes a PATH, configurable)
+            - row [ref=f7e581]:
+              - cell [ref=f7e582]:
+                - strong [ref=f7e583]: v1.6
+              - cell "Themes and visual polish — catppuccin, dracula, nord, gruvbox" [ref=f7e584]
+            - row [ref=f7e585]:
+              - cell [ref=f7e586]:
+                - strong [ref=f7e587]: v1.7
+              - cell [ref=f7e588]:
+                - text: Diagnostics —
+                - code [ref=f7e589]: "--explain"
+                - text: ","
+                - code [ref=f7e590]: "--diagnose"
+                - text: ","
+                - code [ref=f7e591]: "--timings"
+                - text: ", shell completions"
+            - row [ref=f7e592]:
+              - cell [ref=f7e593]:
+                - strong [ref=f7e594]: v2.0
+              - cell "Stability — stable JSON/config schemas, cross-platform CI, performance targets" [ref=f7e595]
+        - paragraph [ref=f7e596]: See ROADMAP.md for the full detailed roadmap.
+        - heading "💰 Support" [level=2] [ref=f7e597]
+        - paragraph [ref=f7e598]: "If you found my work helpful, feel free to support:"
+        - heading "One-time" [level=3] [ref=f7e599]
+        - paragraph [ref=f7e600]:
+          - link [ref=f7e601] [cursor=pointer]:
+            - /url: https://ko-fi.com/vaproh
+            - img "Ko-fi" [ref=f7e602]
+          - link [ref=f7e603] [cursor=pointer]:
+            - /url: https://paypal.me/vaproh
+            - img "PayPal" [ref=f7e604]
+        - heading "Crypto" [level=3] [ref=f7e605]
+        - paragraph [ref=f7e606]:
+          - strong [ref=f7e607]: Ethereum (ERC-20)
+          - code [ref=f7e608]: "0xD78C15C6932356e57c75a050a602474372804714"
+        - paragraph [ref=f7e609]:
+          - strong [ref=f7e610]: BNB Smart Chain (BEP-20)
+          - code [ref=f7e611]: "0xD78C15C6932356e57c75a050a602474372804714"
+        - paragraph [ref=f7e612]:
+          - strong [ref=f7e613]: Solana
+          - code [ref=f7e614]: CvAZzE6jTwxQq1npGzeoTBByj7Ap4REmuukf3BeiuyHi
+        - paragraph [ref=f7e615]:
+          - strong [ref=f7e616]: Bitcoin (BTC)
+          - code [ref=f7e617]: bc1q7tct80xelr57zdmvcux495dec8l4m2t8eqdzn4
+        - paragraph [ref=f7e618]:
+          - strong [ref=f7e619]: Tron (TRC-20)
+          - code [ref=f7e620]: TKvaQHMqvzeX2UAz6Cz2WRckRh28Hjd2Xy
+        - paragraph [ref=f7e621]:
+          - strong [ref=f7e622]: Litecoin (LTC)
+          - code [ref=f7e623]: LXYZJ754RdVXzLkoKVA91wTYjYfRyxQ9pA
+        - paragraph [ref=f7e624]:
+          - strong [ref=f7e625]: Zcash
+          - code [ref=f7e626]: t1bFWcooKThyQjQzrJACXXCYbNZLS7QUzmF
+        - heading "License" [level=2] [ref=f7e627]
+        - paragraph [ref=f7e628]: MIT — see LICENSE
+  - contentinfo [ref=f7e85]:
+    - generic [ref=f7e86]:
+      - generic [ref=f7e87]:
+        - generic [ref=f7e88]: vaproh
+        - generic [ref=f7e89]: ·
+        - generic [ref=f7e90]: © 2026
+        - generic [ref=f7e91]: ·
+        - generic [ref=f7e92]: "local time: 06:43 PM"
+      - generic [ref=f7e93]:
+        - link "github" [ref=f7e94] [cursor=pointer]:
+          - /url: https://github.com/vaproh
+        - link "rss" [ref=f7e95] [cursor=pointer]:
+          - /url: /feed.xml
+        - link "email" [ref=f7e96] [cursor=pointer]:
+          - /url: mailto:utkarsh@vaproh.space
