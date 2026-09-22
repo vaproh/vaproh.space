@@ -31,7 +31,7 @@
   <div class="mobile-nav-footer">
     <a href="https://github.com/vaproh" class="ext-link" rel="noopener" target="_blank">github</a>
     <span class="ext-sep">·</span>
-    <a href="{{ "/feed.xml" | relURL }}" class="ext-link">rss</a>
+    <a href="{{ with .OutputFormats.Get "RSS" }}{{ .RelPermalink }}{{ else }}{{ "/index.xml" | relURL }}{{ end }}" class="ext-link">rss</a>
     <span class="ext-sep">·</span>
     <a href="mailto:vaproh@proton.me" class="ext-link">email</a>
     <button class="theme-toggle" id="theme-toggle-mobile" aria-label="toggle theme" style="margin-left:auto"><span class="theme-icon"></span></button>

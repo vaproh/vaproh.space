@@ -1,10 +1,13 @@
 baseURL = 'https://vaproh.space/'
-locale = 'en-US'
+languageCode = 'en-US'
 title = 'vaproh'
 theme = 'vaproh-theme'
+enableRobotsTXT = true
 
 [params]
   description = "Utkarsh's little corner of the internet."
+  author = "Utkarsh"
+  images = ["/img/og.png"]
 
 [permalinks]
   archive = "/:title/"

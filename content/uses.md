@@ -27,7 +27,7 @@ what i use day to day. my [dotfiles](https://github.com/vaproh/dotfiles) are on 
 * **Multiplexer:** tmux
 * **Shell:** zsh with Oh My Zsh
 * **Fonts:** [Ioskeley Mono](https://github.com/ahatem/IoskeleyMono) for code, Inter for UI
-* **Theme:** Flexoki everywhere
+* **Theme:** [Flexoki](https://stephango.com/flexoki) everywhere
 
 ### Apps
 * **Browser:** Zen browser, plus Brave Origin for when something only works on chromium

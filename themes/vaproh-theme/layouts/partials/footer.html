@@ -9,7 +9,7 @@
     </div>
     <div class="footer-links">
       <a href="https://github.com/vaproh" rel="noopener noreferrer" target="_blank">github</a>
-      <a href="{{ "/feed.xml" | relURL }}">rss</a>
+      <a href="{{ with .OutputFormats.Get "RSS" }}{{ .RelPermalink }}{{ else }}{{ "/index.xml" | relURL }}{{ end }}">rss</a>
       <a href="mailto:vaproh@proton.me">email</a>
     </div>
   </div>
